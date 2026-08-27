@@ -1,0 +1,561 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611730cf55a47eb449f2e677518006a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    searchListType: 1
+    AutoSaveSeconds: 65
+    SavePath: Assets/Art/GamePlay/BT
+    LastAssetPath: Assets/Art/GamePlay/BT/1_1.bt.bytes
+    NodePrettySpacing: {x: 20, y: 10}
+    nodes:
+    - type: ActionEditor.Nodes.GroupData
+      ownerType: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+      attach: []
+    - type: GamePlay.RemoveTagSignal
+      ownerType: 
+      color: {r: 0.32351154, g: 0.39455044, b: 0.41405374, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.RemoveAbilitySignal
+      ownerType: 
+      color: {r: 0.123412445, g: 0.52376443, b: 0.38291422, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.AddBuffSignal
+      ownerType: 
+      color: {r: 0.25061437, g: 0.5643899, b: 0.5738662, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.AddTagSignal
+      ownerType: 
+      color: {r: 0.39448246, g: 0.22572814, b: 0.6709693, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.AddAbilitySignal
+      ownerType: 
+      color: {r: 0.76362365, g: 0.95625484, b: 0.9051853, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillEndSignal
+      ownerType: 
+      color: {r: 0.013298542, g: 0.026106719, b: 0.012896975, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillEnterCDSignal
+      ownerType: 
+      color: {r: 0.354042, g: 0.50645167, b: 0.43557784, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillSetValueSignal
+      ownerType: 
+      color: {r: 0.28978166, g: 0.6115361, b: 0.16862574, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: ActionEditor.Nodes.BT.BTSubTree
+      ownerType: 
+      color: {r: 0.122211374, g: 0.4056692, b: 0.64248997, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: GamePlay.SkillPropertyCollection
+      ownerType: 
+      color: {r: 0.50377357, g: 0.73213595, b: 1, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillForClip
+      ownerType: 
+      color: {r: 0.14186516, g: 0.20772064, b: 0.8326223, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillTimeClip
+      ownerType: 
+      color: {r: 0.564044, g: 0.43676943, b: 0.7070078, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillClipSequence
+      ownerType: 
+      color: {r: 0.07219609, g: 0.13991047, b: 0.099014856, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.IsEnemyHouseInAtkRadius
+      ownerType: 
+      color: {r: 0.28264493, g: 0.8620883, b: 0.07421109, a: 1}
+      attach:
+      - GamePlay.ActorBTAsset
+    - type: GamePlay.SkillModifyIndexCondition
+      ownerType: 
+      color: {r: 0.32768652, g: 0.4896147, b: 0.6529024, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: ActionEditor.Nodes.BT.BTVariableCondition
+      ownerType: 
+      color: {r: 0.47450835, g: 0.35816512, b: 0.58323973, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTCompareVariables
+      ownerType: 
+      color: {r: 0.021174122, g: 0.09692109, b: 0.961722, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTRecEventCondition
+      ownerType: 
+      color: {r: 0.49356538, g: 0.42262614, b: 0.58645195, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: GamePlay.IsEnemyExist
+      ownerType: 
+      color: {r: 0.49108276, g: 0.42974025, b: 0.9300574, a: 1}
+      attach:
+      - GamePlay.ActorBTAsset
+    - type: GamePlay.IsEnemyInAtkRadius
+      ownerType: 
+      color: {r: 0.06661079, g: 0.08985389, b: 0.02642937, a: 1}
+      attach:
+      - GamePlay.ActorBTAsset
+    - type: GamePlay.SkillCompareValueSignal
+      ownerType: 
+      color: {r: 0.288736, g: 0.3644196, b: 0.26467982, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.IsExistEnemyInSight
+      ownerType: 
+      color: {r: 0.58332556, g: 0.8923886, b: 0.74747986, a: 1}
+      attach:
+      - GamePlay.ActorBTAsset
+    - type: ActionEditor.Nodes.BT.BTRoot
+      ownerType: 
+      color: {r: 0.65988225, g: 0.92107487, b: 0.5399404, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: GamePlay.SkillAssetRoot
+      ownerType: 
+      color: {r: 0.41490492, g: 0.46015468, b: 0.57338506, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: ActionEditor.Nodes.GraphCommentData
+      ownerType: 
+      color: {r: 0.10464521, g: 0.47370943, b: 0.8090987, a: 1}
+      attach: []
+    - type: ActionEditor.Nodes.BT.BTReactiveSequence
+      ownerType: 
+      color: {r: 0.079946294, g: 0.19843152, b: 0.14719939, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTReactiveSelector
+      ownerType: 
+      color: {r: 0.36542013, g: 0.89553964, b: 0.6135552, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTParallel
+      ownerType: 
+      color: {r: 0.45671934, g: 0.6180089, b: 0.8301809, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTParallelComplete
+      ownerType: 
+      color: {r: 0.24532771, g: 0.31321242, b: 0.24408795, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTParallelSelector
+      ownerType: 
+      color: {r: 0.19934908, g: 0.449719, b: 0.14293201, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTSequence
+      ownerType: 
+      color: {r: 0.81892693, g: 0.8425539, b: 0.9033208, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTSwitchInteger
+      ownerType: 
+      color: {r: 0.159076, g: 0.97747207, b: 0.69689167, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTRoundRobin
+      ownerType: 
+      color: {r: 0.018983517, g: 0.11659769, b: 0.20414308, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTSelector
+      ownerType: 
+      color: {r: 0.44780126, g: 0.5164948, b: 0.43556836, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: GamePlay.SkillModify
+      ownerType: 
+      color: {r: 0.7238297, g: 0.88518256, b: 0.97468495, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillModifyProperty
+      ownerType: 
+      color: {r: 0.62595403, g: 0.85264564, b: 0.80473536, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: ActionEditor.Nodes.BT.BTSwapVariables
+      ownerType: 
+      color: {r: 0.52034885, g: 0.7826539, b: 0.25740194, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTPushEvent
+      ownerType: 
+      color: {r: 0.12209383, g: 0.04677124, b: 0.38774425, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTCopyVariable
+      ownerType: 
+      color: {r: 0.049156647, g: 0.06096887, b: 0.06616736, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: GamePlay.FindNearestEnemy
+      ownerType: 
+      color: {r: 0.47416735, g: 0.5047559, b: 0.38791493, a: 1}
+      attach:
+      - GamePlay.ActorBTAsset
+    - type: ActionEditor.Nodes.BT.BTPerformInterrupt
+      ownerType: 
+      color: {r: 0.24594547, g: 0.28204527, b: 0.18147564, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: GamePlay.AttackEnemyHouse
+      ownerType: 
+      color: {r: 0.3909031, g: 0.44566816, b: 0.41826376, a: 1}
+      attach:
+      - GamePlay.ActorBTAsset
+    - type: GamePlay.AttackEnemy
+      ownerType: 
+      color: {r: 0.75668633, g: 0.8163296, b: 0.85567784, a: 1}
+      attach:
+      - GamePlay.ActorBTAsset
+    - type: ActionEditor.Nodes.BT.BTWaitTicks
+      ownerType: 
+      color: {r: 0.21347766, g: 0.15677486, b: 0.40861875, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTWaitEvent
+      ownerType: 
+      color: {r: 0.02381246, g: 0.05774209, b: 0.06008614, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTSetVariable
+      ownerType: 
+      color: {r: 0.48576748, g: 0.50691944, b: 0.66628164, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: GamePlay.MoveToEnemyHouse
+      ownerType: 
+      color: {r: 0.06437037, g: 0.2833679, b: 0.052326806, a: 1}
+      attach:
+      - GamePlay.ActorBTAsset
+    - type: GamePlay.MoveToEnemyRole
+      ownerType: 
+      color: {r: 0.10979011, g: 0.09736525, b: 0.23784688, a: 1}
+      attach:
+      - GamePlay.ActorBTAsset
+    - type: ActionEditor.Nodes.BT.BTIF
+      ownerType: 
+      color: {r: 0.08523538, g: 0.23772922, b: 0.108500786, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTCooldownTicks
+      ownerType: 
+      color: {r: 0.26465428, g: 0.32364905, b: 0.5618256, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTAnd
+      ownerType: 
+      color: {r: 0.1871489, g: 0.19479804, b: 0.2195678, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTInterrupt
+      ownerType: 
+      color: {r: 0.4420322, g: 0.3796653, b: 0.50866383, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTSemaphore
+      ownerType: 
+      color: {r: 0.13055232, g: 0.3881262, b: 0.25793377, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTOnce
+      ownerType: 
+      color: {r: 0.031314846, g: 0.06001131, b: 0.06705118, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTInverter
+      ownerType: 
+      color: {r: 0.679017, g: 0.83206534, b: 0.1209998, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTFailure
+      ownerType: 
+      color: {r: 0.28607348, g: 0.4025702, b: 0.40156075, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTRetry
+      ownerType: 
+      color: {r: 0.0866253, g: 0.09555937, b: 0.092261605, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTDelayTicks
+      ownerType: 
+      color: {r: 0.6386319, g: 0.037919573, b: 0.84755266, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTSuccess
+      ownerType: 
+      color: {r: 0.18000922, g: 0.30363658, b: 0.3032968, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTOR
+      ownerType: 
+      color: {r: 0.30207828, g: 0.8983321, b: 0.25621766, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTExecutionLimit
+      ownerType: 
+      color: {r: 0.30715474, g: 0.22261333, b: 0.51167065, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTUtilFailure
+      ownerType: 
+      color: {r: 0.45658916, g: 0.5645241, b: 0.49800694, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTUtilSuccess
+      ownerType: 
+      color: {r: 0.38649276, g: 0.29810163, b: 0.46548313, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTTimeoutTicks
+      ownerType: 
+      color: {r: 0.24079461, g: 0.2530189, b: 0.22160621, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTRepeat
+      ownerType: 
+      color: {r: 0.13208789, g: 0.14536873, b: 0.261521, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTRepeatCount
+      ownerType: 
+      color: {r: 0.025604876, g: 0.059058912, b: 0.0014893131, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: GamePlay.SkillAndCondition
+      ownerType: 
+      color: {r: 0.14491925, g: 0.12503198, b: 0.16355278, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillIFSignal
+      ownerType: 
+      color: {r: 0.09411053, g: 0.57304794, b: 0.87757254, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillORCondition
+      ownerType: 
+      color: {r: 0.14509805, g: 0.1254902, b: 0.16470589, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillNotCondition
+      ownerType: 
+      color: {r: 0.019607844, g: 0.019607844, b: 0.043137256, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: ActionEditor.Nodes.BT.BTRoot
+      ownerType: GamePlay.ActorBTAsset
+      color: {r: 0.65988225, g: 0.92107487, b: 0.5399404, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTSequence
+      ownerType: GamePlay.ActorBTAsset
+      color: {r: 0.81892693, g: 0.8425539, b: 0.9033208, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTSelector
+      ownerType: GamePlay.ActorBTAsset
+      color: {r: 0.44780126, g: 0.5164948, b: 0.43556836, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: ActionEditor.Nodes.BT.BTRepeat
+      ownerType: GamePlay.ActorBTAsset
+      color: {r: 0.13208789, g: 0.14536873, b: 0.261521, a: 1}
+      attach:
+      - ActionEditor.Nodes.BT.BTTree
+    - type: GamePlay.RemoveTagSignal
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.32351154, g: 0.39455044, b: 0.41405374, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.RemoveAbilitySignal
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.123412445, g: 0.52376443, b: 0.38291422, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.AddBuffSignal
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.25061437, g: 0.5643899, b: 0.5738662, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.AddTagSignal
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.39448246, g: 0.22572814, b: 0.6709693, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.AddAbilitySignal
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.76362365, g: 0.95625484, b: 0.9051853, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillEndSignal
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.013298542, g: 0.026106719, b: 0.012896975, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillEnterCDSignal
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.354042, g: 0.50645167, b: 0.43557784, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillSetValueSignal
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.28978166, g: 0.6115361, b: 0.16862574, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillPropertyCollection
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.50377357, g: 0.73213595, b: 1, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillForClip
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.14186516, g: 0.20772064, b: 0.8326223, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillTimeClip
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.564044, g: 0.43676943, b: 0.7070078, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillClipSequence
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.07219609, g: 0.13991047, b: 0.099014856, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillModifyIndexCondition
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.32768652, g: 0.4896147, b: 0.6529024, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillCompareValueSignal
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.288736, g: 0.3644196, b: 0.26467982, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillAssetRoot
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.41490492, g: 0.46015468, b: 0.57338506, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillModify
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.7238297, g: 0.88518256, b: 0.97468495, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillModifyProperty
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.62595403, g: 0.85264564, b: 0.80473536, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillAndCondition
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.14491925, g: 0.12503198, b: 0.16355278, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillIFSignal
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.09411053, g: 0.57304794, b: 0.87757254, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillORCondition
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.14509805, g: 0.1254902, b: 0.16470589, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    - type: GamePlay.SkillNotCondition
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.019607844, g: 0.019607844, b: 0.043137256, a: 1}
+      attach:
+      - GamePlay.SkillAsset
+    other:
+    - type: ActionEditor.Nodes.BT.BTNode
+      ownerType: 
+      color: {r: 0.5629859, g: 0.60958356, b: 0.58975244, a: 1}
+      attach: []
+    - type: GamePlay.SkillORCondition
+      ownerType: 
+      color: {r: 0.8574468, g: 0.55312777, b: 0.69717616, a: 1}
+      attach: []
+    - type: GamePlay.SkillSignal
+      ownerType: 
+      color: {r: 0.3803922, g: 0.74509805, b: 0.80392164, a: 1}
+      attach: []
+    - type: GamePlay.SkillPropertyCollection
+      ownerType: 
+      color: {r: 0.19495599, g: 0.41848928, b: 0.37586126, a: 1}
+      attach: []
+    - type: GamePlay.SkillCondition
+      ownerType: 
+      color: {r: 0.4293835, g: 0.46855035, b: 0.5655475, a: 1}
+      attach: []
+    - type: GamePlay.SkillClip
+      ownerType: 
+      color: {r: 0.965454, g: 0.92732704, b: 0.9503815, a: 1}
+      attach: []
+    - type: GamePlay.SkillAction
+      ownerType: 
+      color: {r: 0.38065496, g: 0.7447337, b: 0.8037735, a: 1}
+      attach: []
+    - type: GamePlay.SkillModify
+      ownerType: 
+      color: {r: 0.33312097, g: 0.22013642, b: 0.05498385, a: 1}
+      attach: []
+    - type: GamePlay.SkillModifyProperty
+      ownerType: 
+      color: {r: 0.19433957, g: 1, b: 0.24037741, a: 1}
+      attach: []
+    - type: GamePlay.SkillSetValueSignal
+      ownerType: 
+      color: {r: 0.26335052, g: 0.85697067, b: 0.18892504, a: 1}
+      attach: []
+    - type: GamePlay.SkillClipSequence
+      ownerType: 
+      color: {r: 0.32080233, g: 0.34116128, b: 0.33124343, a: 1}
+      attach: []
+    - type: ActionEditor.Nodes.BT.BTNode
+      ownerType: GamePlay.ActorBTAsset
+      color: {r: 0.5629859, g: 0.60958356, b: 0.58975244, a: 1}
+      attach: []
+    - type: GamePlay.SkillPropertyCollection
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.19495599, g: 0.41848928, b: 0.37586126, a: 1}
+      attach: []
+    - type: GamePlay.SkillModify
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.33312097, g: 0.22013642, b: 0.05498385, a: 1}
+      attach: []
+    - type: GamePlay.SkillClipSequence
+      ownerType: GamePlay.SkillAsset
+      color: {r: 0.32080233, g: 0.34116128, b: 0.33124343, a: 1}
+      attach: []
+  legacySettingsMigrated: 1

@@ -1,0 +1,60 @@
+{
+    "plan_index": 0,
+    "_plans": [
+        {
+            "ConfigGenPath": "Assets/Art/Configs",
+            "PanelCollectPath": "Assets/Art",
+            "ScriptGenPath": "Assets/Scripts/Game",
+            "ScriptName": "PanelNames",
+            "name": "26_07_28_12_16_55",
+            "typeIndex": 0,
+            "ConfigName": "UICollect"
+        }
+    ],
+    "segs": [
+        {
+            "prefab": "Assets/Art/Game/Prefabs/UI/Battle.prefab",
+            "ScriptPath": "Assets/Scripts/Game/UI/Battle/BattleView.cs",
+            "Paths": [
+                "Assets/Scripts/Game/UI/Battle/BattleView.cs"
+            ]
+        },
+        {
+            "prefab": "Assets/Art/Game/Prefabs/UI/LoadScene.prefab",
+            "ScriptPath": "Assets/Scripts/Game/UI/LoadSceneView.cs",
+            "Paths": [
+                "Assets/Scripts/Game/UI/LoadSceneView.cs"
+            ]
+        },
+        {
+            "prefab": "Assets/Art/Game/Prefabs/UI/Login.prefab",
+            "ScriptPath": "Assets/Scripts/Game/UI/LoginView.cs",
+            "Paths": [
+                "Assets/Scripts/Game/UI/LoginView.cs"
+            ]
+        },
+        {
+            "prefab": "Assets/Art/Game/Prefabs/UI/Main.prefab",
+            "ScriptPath": "Assets/Scripts/Game/UI/MainView.cs",
+            "Paths": [
+                "Assets/Scripts/Game/UI/MainView.cs"
+            ]
+        },
+        {
+            "prefab": "Assets/Art/Game/Prefabs/UI/Tip.prefab",
+            "ScriptPath": "Assets/Scripts/Game/UI/TipView.cs",
+            "Paths": [
+                "Assets/Scripts/Game/UI/TipView.cs"
+            ]
+        }
+    ],
+    "layerEdit": {
+        "mode": 0,
+        "layerObjectPath": "Assets/Art/Configs/New UI Layer Data.asset"
+    },
+    "pubsave": {
+        "NameSpace": "UI",
+        "viewBaseIndex": 0,
+        "widgetBaseIndex": 0
+    }
+}

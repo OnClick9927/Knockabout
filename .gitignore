@@ -1,0 +1,14 @@
+Knockabout/.vs/
+Knockabout/Library
+Knockabout/.vsconfig
+Knockabout/Logs/
+Knockabout/obj/
+Knockabout/Temp/
+Knockabout/*.csproj
+Knockabout/*.sln
+Knockabout/UserSettings/
+Knockabout/Assets/Editor/Pref/EditorPrefs/
+Knockabout/Assets/Editor/Pref/EditorPrefs.meta
+Knockabout/Assets/Editor/Pref/GGame/
+
+

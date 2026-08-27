@@ -1,0 +1,14 @@
+﻿<linker>
+<assembly fullname="IFramework" preserve="all"/>
+<assembly fullname="WooLocalization" preserve="all"/>
+<assembly fullname="UnityEngine">
+<type fullname="UnityEngine.BoxCollider" preserve="all"/>
+<type fullname="UnityEngine.SphereCollider" preserve="all"/>
+<type fullname="UnityEngine.CapsuleCollider" preserve="all"/>
+<type fullname="UnityEngine.CircleCollider2D" preserve="all"/>
+<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all"/>
+<type fullname="UnityEngine.ParticleSystemRenderer" preserve="all"/>
+<type fullname="UnityEngine.ParticleSystem" preserve="all"/>
+<type fullname="UnityEngine.AudioListener" preserve="all"/>
+</assembly>
+</linker>

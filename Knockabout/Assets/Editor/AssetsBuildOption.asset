@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92f35693393261449628fc0c28902e5, type: 3}
+  m_Name: AssetsBuildOption
+  m_EditorClassIdentifier: 
+  mode:
+    mode:
+      _select: WooAsset.AssetsEditorTool+RudeMode
+    Folders:
+    - Assets/Art
+    CheckAssetType: 0
+    speedType: 2
+    loadSpeed: 1024
+    ServerEnable: 0
+    ServerPort: 8080
+    downloadSpeedType: 2
+    DownloadSpeed: 1024
+  buildIn:
+    copyToStream: 1
+    assets: []
+    selector:
+      _select: WooAsset.DefaultBuildInBundleSelector
+  bundleOptimize:
+    optimizer:
+      _select: WooAsset.NoneBundleOptimizer
+    count: 0
+  ClearAssetCache: 1
+  version: 0.0.1
+  buildMode: 0
+  typeTreeOption: 1
+  bundleNameType: 0
+  bundleNameCalculate: 0
+  compress: 1
+  MaxCacheVersionCount: 8
+  pkgs:
+  - name: project
+    tags: []
+    paths:
+    - Assets/Art
+    rules: []
+    build: 1
+  build:
+    _select: EditorGameTools+ABAssetBuild
+  encrypt:
+    _select: WooAsset.NoneAssetStreamEncrypt
+  buildPipeline:
+    _select: WooAsset.BuildInPipeline
+  record:
+    type: 0
+    records: []
+  tags: []

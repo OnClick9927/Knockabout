@@ -1,0 +1,3910 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 10.7
+    agentClimb: 1.02
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &104371953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 104371954}
+  - component: {fileID: 104371957}
+  - component: {fileID: 104371956}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &104371954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104371953}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.1, y: 0, z: -3.57}
+  m_LocalScale: {x: 1.03, y: 1, z: 11.226414}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1538159546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &104371956
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104371953}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b32eb359694817d438dbd625a2356e36, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &104371957
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104371953}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &128211288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128211289}
+  - component: {fileID: 128211292}
+  - component: {fileID: 128211291}
+  - component: {fileID: 128211290}
+  m_Layer: 0
+  m_Name: end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &128211289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128211288}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.08, y: 3, z: 12.55}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 892915906}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &128211290
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128211288}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &128211291
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128211288}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &128211292
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128211288}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &140771367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 140771370}
+  - component: {fileID: 140771369}
+  - component: {fileID: 140771368}
+  - component: {fileID: 140771371}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &140771368
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140771367}
+  m_Enabled: 1
+--- !u!20 &140771369
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140771367}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &140771370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140771367}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &140771371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140771367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!1 &179572738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179572740}
+  - component: {fileID: 179572739}
+  - component: {fileID: 179572741}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &179572739
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179572738}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &179572740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179572738}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &179572741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179572738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 1
+--- !u!1 &234285420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 234285421}
+  - component: {fileID: 234285424}
+  - component: {fileID: 234285423}
+  - component: {fileID: 234285422}
+  m_Layer: 0
+  m_Name: start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &234285421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234285420}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.1, y: 10, z: 3.61}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 892915906}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &234285422
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234285420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &234285423
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234285420}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &234285424
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234285420}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &280599832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280599833}
+  - component: {fileID: 280599837}
+  - component: {fileID: 280599836}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &280599833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280599832}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.71, y: 0, z: 9.52}
+  m_LocalScale: {x: 1.03, y: 1, z: 11.226414}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1538159546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &280599836
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280599832}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b32eb359694817d438dbd625a2356e36, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &280599837
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280599832}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &680213295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 680213296}
+  m_Layer: 0
+  m_Name: links
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &680213296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680213295}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1748060701}
+  - {fileID: 964105335}
+  m_Father: {fileID: 1054512621}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &825358549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 825358550}
+  m_Layer: 0
+  m_Name: walk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &825358550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825358549}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1468204768}
+  - {fileID: 1987047565}
+  - {fileID: 1031574382}
+  m_Father: {fileID: 1054512621}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &892915905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 892915906}
+  m_Layer: 0
+  m_Name: point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &892915906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892915905}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 234285421}
+  - {fileID: 128211289}
+  m_Father: {fileID: 1054512621}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &964105334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 964105335}
+  m_Layer: 0
+  m_Name: link (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &964105335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964105334}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.003546039, z: -0, w: 0.99999374}
+  m_LocalPosition: {x: 20.565, y: 0, z: 9.485001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 680213296}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1015350844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1015350845}
+  - component: {fileID: 1015350849}
+  - component: {fileID: 1015350848}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1015350845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015350844}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.75, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1538159546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1015350848
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015350844}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b32eb359694817d438dbd625a2356e36, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1015350849
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015350844}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1031574381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1031574382}
+  - component: {fileID: 1031574385}
+  - component: {fileID: 1031574384}
+  - component: {fileID: 1031574383}
+  m_Layer: 0
+  m_Name: Plane (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 127
+  m_IsActive: 1
+--- !u!4 &1031574382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031574381}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.04, y: 0, z: 15.43}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 825358550}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1031574383
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031574381}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1031574384
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031574381}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1031574385
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031574381}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1054512620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1054512621}
+  - component: {fileID: 1054512624}
+  m_Layer: 0
+  m_Name: root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1054512621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054512620}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 825358550}
+  - {fileID: 1538159546}
+  - {fileID: 680213296}
+  - {fileID: 892915906}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1054512624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054512620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e20e93289ac11040a698e51f0149f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkableObjects:
+  - {fileID: 1468204764}
+  - {fileID: 1987047560}
+  - {fileID: 1031574381}
+  nonWalkableObjects:
+  - {fileID: 104371953}
+  - {fileID: 280599832}
+  - {fileID: 1015350844}
+  links:
+  - coordinateSpace: {fileID: 964105335}
+    startPoint: {x: 0.000000011175871, y: 0, z: -6.345159}
+    endPoint: {x: -0.000000007450581, y: 0, z: 6.3451586}
+    cost: 0
+    bidirectional: 1
+  - coordinateSpace: {fileID: 1748060701}
+    startPoint: {x: -0.00000035762787, y: 0, z: -3.7034683}
+    endPoint: {x: 0.00000035762787, y: 0, z: 3.7034683}
+    cost: 0
+    bidirectional: 1
+  cellSize: 0.25
+  agentRadius: 0.5
+  agentHeight: 2
+  maxStepHeight: 0.5
+  maxSlope: 45
+  minRegionCells: 1
+  mergeCoplanarCells: 1
+  useConstrainedDelaunay: 1
+  agentType: 6
+  start: {fileID: 234285421}
+  end: {fileID: 128211289}
+  data:
+    agentType: 6
+    triangles:
+    - points:
+      - _x: 7000000
+        _y: 0
+        _z: 4500000
+      - _x: 8250000
+        _y: 0
+        _z: 2250000
+      - _x: 9500000
+        _y: 0
+        _z: 500000
+      edges:
+      - a:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+        b:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+      - a:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 9500000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 9500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+      bounds:
+        min:
+          _x: 7000000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 9500000
+          _y: 0
+          _z: 4500000
+      neighbors: 080000001600000017000000
+      links: []
+    - points:
+      - _x: 6750000
+        _y: 0
+        _z: 4250000
+      - _x: 6500000
+        _y: 0
+        _z: 4250000
+      - _x: 6500000
+        _y: 0
+        _z: 4000000
+      edges:
+      - a:
+          _x: 6750000
+          _y: 0
+          _z: 4250000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 4250000
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 4250000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 4000000
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 6750000
+          _y: 0
+          _z: 4250000
+      bounds:
+        min:
+          _x: 6500000
+          _y: 0
+          _z: 4000000
+        max:
+          _x: 6750000
+          _y: 0
+          _z: 4250000
+      neighbors: 19000000
+      links: []
+    - points:
+      - _x: 5250000
+        _y: 0
+        _z: 4000000
+      - _x: 5250000
+        _y: 0
+        _z: 4250000
+      - _x: 5000000
+        _y: 0
+        _z: 4250000
+      edges:
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 4250000
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 4250000
+        b:
+          _x: 5000000
+          _y: 0
+          _z: 4250000
+      - a:
+          _x: 5000000
+          _y: 0
+          _z: 4250000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+      bounds:
+        min:
+          _x: 5000000
+          _y: 0
+          _z: 4000000
+        max:
+          _x: 5250000
+          _y: 0
+          _z: 4250000
+      neighbors: 2c000000
+      links: []
+    - points:
+      - _x: 5000000
+        _y: 0
+        _z: 4250000
+      - _x: 5000000
+        _y: 0
+        _z: 4500000
+      - _x: 4750000
+        _y: 0
+        _z: 4500000
+      edges:
+      - a:
+          _x: 5000000
+          _y: 0
+          _z: 4250000
+        b:
+          _x: 5000000
+          _y: 0
+          _z: 4500000
+      - a:
+          _x: 5000000
+          _y: 0
+          _z: 4500000
+        b:
+          _x: 4750000
+          _y: 0
+          _z: 4500000
+      - a:
+          _x: 4750000
+          _y: 0
+          _z: 4500000
+        b:
+          _x: 5000000
+          _y: 0
+          _z: 4250000
+      bounds:
+        min:
+          _x: 4750000
+          _y: 0
+          _z: 4250000
+        max:
+          _x: 5000000
+          _y: 0
+          _z: 4500000
+      neighbors: 2b000000
+      links: []
+    - points:
+      - _x: 4750000
+        _y: 0
+        _z: 5750000
+      - _x: 5000000
+        _y: 0
+        _z: 5750000
+      - _x: 5000000
+        _y: 0
+        _z: 6000000
+      edges:
+      - a:
+          _x: 4750000
+          _y: 0
+          _z: 5750000
+        b:
+          _x: 5000000
+          _y: 0
+          _z: 5750000
+      - a:
+          _x: 5000000
+          _y: 0
+          _z: 5750000
+        b:
+          _x: 5000000
+          _y: 0
+          _z: 6000000
+      - a:
+          _x: 5000000
+          _y: 0
+          _z: 6000000
+        b:
+          _x: 4750000
+          _y: 0
+          _z: 5750000
+      bounds:
+        min:
+          _x: 4750000
+          _y: 0
+          _z: 5750000
+        max:
+          _x: 5000000
+          _y: 0
+          _z: 6000000
+      neighbors: 27000000
+      links: []
+    - points:
+      - _x: 5000000
+        _y: 0
+        _z: 6000000
+      - _x: 5250000
+        _y: 0
+        _z: 6000000
+      - _x: 5250000
+        _y: 0
+        _z: 6250000
+      edges:
+      - a:
+          _x: 5000000
+          _y: 0
+          _z: 6000000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 6000000
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 6000000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 6250000
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 6250000
+        b:
+          _x: 5000000
+          _y: 0
+          _z: 6000000
+      bounds:
+        min:
+          _x: 5000000
+          _y: 0
+          _z: 6000000
+        max:
+          _x: 5250000
+          _y: 0
+          _z: 6250000
+      neighbors: 25000000
+      links: []
+    - points:
+      - _x: 6500000
+        _y: 0
+        _z: 6250000
+      - _x: 6500000
+        _y: 0
+        _z: 6000000
+      - _x: 6750000
+        _y: 0
+        _z: 6000000
+      edges:
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 6250000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 6000000
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 6000000
+        b:
+          _x: 6750000
+          _y: 0
+          _z: 6000000
+      - a:
+          _x: 6750000
+          _y: 0
+          _z: 6000000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 6250000
+      bounds:
+        min:
+          _x: 6500000
+          _y: 0
+          _z: 6000000
+        max:
+          _x: 6750000
+          _y: 0
+          _z: 6250000
+      neighbors: 1f000000
+      links: []
+    - points:
+      - _x: 6750000
+        _y: 0
+        _z: 6000000
+      - _x: 6750000
+        _y: 0
+        _z: 5750000
+      - _x: 7000000
+        _y: 0
+        _z: 5750000
+      edges:
+      - a:
+          _x: 6750000
+          _y: 0
+          _z: 6000000
+        b:
+          _x: 6750000
+          _y: 0
+          _z: 5750000
+      - a:
+          _x: 6750000
+          _y: 0
+          _z: 5750000
+        b:
+          _x: 7000000
+          _y: 0
+          _z: 5750000
+      - a:
+          _x: 7000000
+          _y: 0
+          _z: 5750000
+        b:
+          _x: 6750000
+          _y: 0
+          _z: 6000000
+      bounds:
+        min:
+          _x: 6750000
+          _y: 0
+          _z: 5750000
+        max:
+          _x: 7000000
+          _y: 0
+          _z: 6000000
+      neighbors: 1b000000
+      links: []
+    - points:
+      - _x: 7000000
+        _y: 0
+        _z: 4500000
+      - _x: 9500000
+        _y: 0
+        _z: 500000
+      - _x: 9500000
+        _y: 0
+        _z: 9500000
+      edges:
+      - a:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+        b:
+          _x: 9500000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 9500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+      bounds:
+        min:
+          _x: 7000000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+      neighbors: 0000000009000000
+      links:
+      - neighbor: 48
+        cost:
+          _val: 0
+        from:
+          _x: 8330654
+          _y: 0
+          _z: 5408618
+        to:
+          _x: 15170877
+          _y: 0
+          _z: 8250106
+    - points:
+      - _x: 9500000
+        _y: 0
+        _z: 9500000
+      - _x: 7000000
+        _y: 0
+        _z: 5750000
+      - _x: 7000000
+        _y: 0
+        _z: 4500000
+      edges:
+      - a:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 7000000
+          _y: 0
+          _z: 5750000
+      - a:
+          _x: 7000000
+          _y: 0
+          _z: 5750000
+        b:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+      - a:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+        b:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+      bounds:
+        min:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+        max:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+      neighbors: 080000001b000000
+      links: []
+    - points:
+      - _x: 9500000
+        _y: 0
+        _z: 9500000
+      - _x: 3750000
+        _y: 0
+        _z: 9500000
+      - _x: 6500000
+        _y: 0
+        _z: 6250000
+      edges:
+      - a:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 6250000
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 6250000
+        b:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+      bounds:
+        min:
+          _x: 3750000
+          _y: 0
+          _z: 6250000
+        max:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+      neighbors: 1f00000023000000
+      links: []
+    - points:
+      - _x: 3750000
+        _y: 0
+        _z: 3750000
+      - _x: 3500000
+        _y: 0
+        _z: 3750000
+      - _x: 3500000
+        _y: 0
+        _z: 3500000
+      edges:
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 3500000
+          _y: 0
+          _z: 3750000
+      - a:
+          _x: 3500000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 3500000
+          _y: 0
+          _z: 3500000
+      - a:
+          _x: 3500000
+          _y: 0
+          _z: 3500000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+      bounds:
+        min:
+          _x: 3500000
+          _y: 0
+          _z: 3500000
+        max:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+      neighbors: 29000000
+      links: []
+    - points:
+      - _x: 3500000
+        _y: 0
+        _z: 3500000
+      - _x: 3250000
+        _y: 0
+        _z: 3500000
+      - _x: 3250000
+        _y: 0
+        _z: 3250000
+      edges:
+      - a:
+          _x: 3500000
+          _y: 0
+          _z: 3500000
+        b:
+          _x: 3250000
+          _y: 0
+          _z: 3500000
+      - a:
+          _x: 3250000
+          _y: 0
+          _z: 3500000
+        b:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+      - a:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+        b:
+          _x: 3500000
+          _y: 0
+          _z: 3500000
+      bounds:
+        min:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+        max:
+          _x: 3500000
+          _y: 0
+          _z: 3500000
+      neighbors: 26000000
+      links: []
+    - points:
+      - _x: 2000000
+        _y: 0
+        _z: 3250000
+      - _x: 2000000
+        _y: 0
+        _z: 3500000
+      - _x: 1750000
+        _y: 0
+        _z: 3500000
+      edges:
+      - a:
+          _x: 2000000
+          _y: 0
+          _z: 3250000
+        b:
+          _x: 2000000
+          _y: 0
+          _z: 3500000
+      - a:
+          _x: 2000000
+          _y: 0
+          _z: 3500000
+        b:
+          _x: 1750000
+          _y: 0
+          _z: 3500000
+      - a:
+          _x: 1750000
+          _y: 0
+          _z: 3500000
+        b:
+          _x: 2000000
+          _y: 0
+          _z: 3250000
+      bounds:
+        min:
+          _x: 1750000
+          _y: 0
+          _z: 3250000
+        max:
+          _x: 2000000
+          _y: 0
+          _z: 3500000
+      neighbors: 20000000
+      links: []
+    - points:
+      - _x: 1750000
+        _y: 0
+        _z: 3500000
+      - _x: 1750000
+        _y: 0
+        _z: 3750000
+      - _x: 1500000
+        _y: 0
+        _z: 3750000
+      edges:
+      - a:
+          _x: 1750000
+          _y: 0
+          _z: 3500000
+        b:
+          _x: 1750000
+          _y: 0
+          _z: 3750000
+      - a:
+          _x: 1750000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 1500000
+          _y: 0
+          _z: 3750000
+      - a:
+          _x: 1500000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 1750000
+          _y: 0
+          _z: 3500000
+      bounds:
+        min:
+          _x: 1500000
+          _y: 0
+          _z: 3500000
+        max:
+          _x: 1750000
+          _y: 0
+          _z: 3750000
+      neighbors: 1c000000
+      links: []
+    - points:
+      - _x: 1500000
+        _y: 0
+        _z: 3750000
+      - _x: 1500000
+        _y: 0
+        _z: 9500000
+      - _x: 500000
+        _y: 0
+        _z: 9500000
+      edges:
+      - a:
+          _x: 1500000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 1500000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 1500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 500000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 1500000
+          _y: 0
+          _z: 3750000
+      bounds:
+        min:
+          _x: 500000
+          _y: 0
+          _z: 3750000
+        max:
+          _x: 1500000
+          _y: 0
+          _z: 9500000
+      neighbors: 10000000
+      links: []
+    - points:
+      - _x: 1500000
+        _y: 0
+        _z: 3750000
+      - _x: 500000
+        _y: 0
+        _z: 9500000
+      - _x: 500000
+        _y: 0
+        _z: 500000
+      edges:
+      - a:
+          _x: 1500000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 500000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 500000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 1500000
+          _y: 0
+          _z: 3750000
+      bounds:
+        min:
+          _x: 500000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 1500000
+          _y: 0
+          _z: 9500000
+      neighbors: 0f0000001c000000
+      links: []
+    - points:
+      - _x: 500000
+        _y: 0
+        _z: 500000
+      - _x: 6000000
+        _y: 0
+        _z: 500000
+      - _x: 3250000
+        _y: 0
+        _z: 3250000
+      edges:
+      - a:
+          _x: 500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 6000000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 6000000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+      - a:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+        b:
+          _x: 500000
+          _y: 0
+          _z: 500000
+      bounds:
+        min:
+          _x: 500000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 6000000
+          _y: 0
+          _z: 3250000
+      neighbors: 1d00000024000000
+      links: []
+    - points:
+      - _x: 6000000
+        _y: 0
+        _z: 2250000
+      - _x: 6250000
+        _y: 0
+        _z: 2250000
+      - _x: 6250000
+        _y: 0
+        _z: 2500000
+      edges:
+      - a:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 6250000
+          _y: 0
+          _z: 2250000
+      - a:
+          _x: 6250000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 6250000
+          _y: 0
+          _z: 2500000
+      - a:
+          _x: 6250000
+          _y: 0
+          _z: 2500000
+        b:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+      bounds:
+        min:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+        max:
+          _x: 6250000
+          _y: 0
+          _z: 2500000
+      neighbors: 1e000000
+      links: []
+    - points:
+      - _x: 6250000
+        _y: 0
+        _z: 2500000
+      - _x: 6500000
+        _y: 0
+        _z: 2500000
+      - _x: 6500000
+        _y: 0
+        _z: 2750000
+      edges:
+      - a:
+          _x: 6250000
+          _y: 0
+          _z: 2500000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 2500000
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 2500000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 2750000
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 2750000
+        b:
+          _x: 6250000
+          _y: 0
+          _z: 2500000
+      bounds:
+        min:
+          _x: 6250000
+          _y: 0
+          _z: 2500000
+        max:
+          _x: 6500000
+          _y: 0
+          _z: 2750000
+      neighbors: 21000000
+      links: []
+    - points:
+      - _x: 7750000
+        _y: 0
+        _z: 2750000
+      - _x: 7750000
+        _y: 0
+        _z: 2500000
+      - _x: 8000000
+        _y: 0
+        _z: 2500000
+      edges:
+      - a:
+          _x: 7750000
+          _y: 0
+          _z: 2750000
+        b:
+          _x: 7750000
+          _y: 0
+          _z: 2500000
+      - a:
+          _x: 7750000
+          _y: 0
+          _z: 2500000
+        b:
+          _x: 8000000
+          _y: 0
+          _z: 2500000
+      - a:
+          _x: 8000000
+          _y: 0
+          _z: 2500000
+        b:
+          _x: 7750000
+          _y: 0
+          _z: 2750000
+      bounds:
+        min:
+          _x: 7750000
+          _y: 0
+          _z: 2500000
+        max:
+          _x: 8000000
+          _y: 0
+          _z: 2750000
+      neighbors: 
+      links: []
+    - points:
+      - _x: 8000000
+        _y: 0
+        _z: 2500000
+      - _x: 8000000
+        _y: 0
+        _z: 2250000
+      - _x: 8250000
+        _y: 0
+        _z: 2250000
+      edges:
+      - a:
+          _x: 8000000
+          _y: 0
+          _z: 2500000
+        b:
+          _x: 8000000
+          _y: 0
+          _z: 2250000
+      - a:
+          _x: 8000000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+      - a:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 8000000
+          _y: 0
+          _z: 2500000
+      bounds:
+        min:
+          _x: 8000000
+          _y: 0
+          _z: 2250000
+        max:
+          _x: 8250000
+          _y: 0
+          _z: 2500000
+      neighbors: 
+      links: []
+    - points:
+      - _x: 8250000
+        _y: 0
+        _z: 2250000
+      - _x: 8250000
+        _y: 0
+        _z: 500000
+      - _x: 9500000
+        _y: 0
+        _z: 500000
+      edges:
+      - a:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 8250000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 8250000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 9500000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 9500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+      bounds:
+        min:
+          _x: 8250000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 9500000
+          _y: 0
+          _z: 2250000
+      neighbors: 00000000
+      links: []
+    - points:
+      - _x: 7000000
+        _y: 0
+        _z: 4500000
+      - _x: 6750000
+        _y: 0
+        _z: 4250000
+      - _x: 8250000
+        _y: 0
+        _z: 2250000
+      edges:
+      - a:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+        b:
+          _x: 6750000
+          _y: 0
+          _z: 4250000
+      - a:
+          _x: 6750000
+          _y: 0
+          _z: 4250000
+        b:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+      - a:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+      bounds:
+        min:
+          _x: 6750000
+          _y: 0
+          _z: 2250000
+        max:
+          _x: 8250000
+          _y: 0
+          _z: 4500000
+      neighbors: 000000001800000019000000
+      links: []
+    - points:
+      - _x: 6750000
+        _y: 0
+        _z: 4250000
+      - _x: 7000000
+        _y: 0
+        _z: 4500000
+      - _x: 6750000
+        _y: 0
+        _z: 4500000
+      edges:
+      - a:
+          _x: 6750000
+          _y: 0
+          _z: 4250000
+        b:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+      - a:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+        b:
+          _x: 6750000
+          _y: 0
+          _z: 4500000
+      - a:
+          _x: 6750000
+          _y: 0
+          _z: 4500000
+        b:
+          _x: 6750000
+          _y: 0
+          _z: 4250000
+      bounds:
+        min:
+          _x: 6750000
+          _y: 0
+          _z: 4250000
+        max:
+          _x: 7000000
+          _y: 0
+          _z: 4500000
+      neighbors: 17000000
+      links: []
+    - points:
+      - _x: 8250000
+        _y: 0
+        _z: 2250000
+      - _x: 6750000
+        _y: 0
+        _z: 4250000
+      - _x: 6500000
+        _y: 0
+        _z: 4000000
+      edges:
+      - a:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 6750000
+          _y: 0
+          _z: 4250000
+      - a:
+          _x: 6750000
+          _y: 0
+          _z: 4250000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 4000000
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+      bounds:
+        min:
+          _x: 6500000
+          _y: 0
+          _z: 2250000
+        max:
+          _x: 8250000
+          _y: 0
+          _z: 4250000
+      neighbors: 17000000010000001a000000
+      links: []
+    - points:
+      - _x: 8250000
+        _y: 0
+        _z: 2250000
+      - _x: 6500000
+        _y: 0
+        _z: 4000000
+      - _x: 5250000
+        _y: 0
+        _z: 4000000
+      edges:
+      - a:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 4000000
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+      bounds:
+        min:
+          _x: 5250000
+          _y: 0
+          _z: 2250000
+        max:
+          _x: 8250000
+          _y: 0
+          _z: 4000000
+      neighbors: 190000002e000000
+      links: []
+    - points:
+      - _x: 6750000
+        _y: 0
+        _z: 6000000
+      - _x: 7000000
+        _y: 0
+        _z: 5750000
+      - _x: 9500000
+        _y: 0
+        _z: 9500000
+      edges:
+      - a:
+          _x: 6750000
+          _y: 0
+          _z: 6000000
+        b:
+          _x: 7000000
+          _y: 0
+          _z: 5750000
+      - a:
+          _x: 7000000
+          _y: 0
+          _z: 5750000
+        b:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 6750000
+          _y: 0
+          _z: 6000000
+      bounds:
+        min:
+          _x: 6750000
+          _y: 0
+          _z: 5750000
+        max:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+      neighbors: 07000000090000001f000000
+      links: []
+    - points:
+      - _x: 1750000
+        _y: 0
+        _z: 3500000
+      - _x: 1500000
+        _y: 0
+        _z: 3750000
+      - _x: 500000
+        _y: 0
+        _z: 500000
+      edges:
+      - a:
+          _x: 1750000
+          _y: 0
+          _z: 3500000
+        b:
+          _x: 1500000
+          _y: 0
+          _z: 3750000
+      - a:
+          _x: 1500000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 500000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 1750000
+          _y: 0
+          _z: 3500000
+      bounds:
+        min:
+          _x: 500000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 1750000
+          _y: 0
+          _z: 3750000
+      neighbors: 0e0000001000000020000000
+      links: []
+    - points:
+      - _x: 6000000
+        _y: 0
+        _z: 500000
+      - _x: 6000000
+        _y: 0
+        _z: 2250000
+      - _x: 3250000
+        _y: 0
+        _z: 3250000
+      edges:
+      - a:
+          _x: 6000000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+      - a:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+      - a:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+        b:
+          _x: 6000000
+          _y: 0
+          _z: 500000
+      bounds:
+        min:
+          _x: 3250000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 6000000
+          _y: 0
+          _z: 3250000
+      neighbors: 1100000026000000
+      links: []
+    - points:
+      - _x: 6000000
+        _y: 0
+        _z: 2250000
+      - _x: 6250000
+        _y: 0
+        _z: 2500000
+      - _x: 5250000
+        _y: 0
+        _z: 4000000
+      edges:
+      - a:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 6250000
+          _y: 0
+          _z: 2500000
+      - a:
+          _x: 6250000
+          _y: 0
+          _z: 2500000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+      bounds:
+        min:
+          _x: 5250000
+          _y: 0
+          _z: 2250000
+        max:
+          _x: 6250000
+          _y: 0
+          _z: 4000000
+      neighbors: 12000000210000002d000000
+      links: []
+    - points:
+      - _x: 6500000
+        _y: 0
+        _z: 6250000
+      - _x: 6750000
+        _y: 0
+        _z: 6000000
+      - _x: 9500000
+        _y: 0
+        _z: 9500000
+      edges:
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 6250000
+        b:
+          _x: 6750000
+          _y: 0
+          _z: 6000000
+      - a:
+          _x: 6750000
+          _y: 0
+          _z: 6000000
+        b:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 6250000
+      bounds:
+        min:
+          _x: 6500000
+          _y: 0
+          _z: 6000000
+        max:
+          _x: 9500000
+          _y: 0
+          _z: 9500000
+      neighbors: 060000001b0000000a000000
+      links: []
+    - points:
+      - _x: 2000000
+        _y: 0
+        _z: 3250000
+      - _x: 1750000
+        _y: 0
+        _z: 3500000
+      - _x: 500000
+        _y: 0
+        _z: 500000
+      edges:
+      - a:
+          _x: 2000000
+          _y: 0
+          _z: 3250000
+        b:
+          _x: 1750000
+          _y: 0
+          _z: 3500000
+      - a:
+          _x: 1750000
+          _y: 0
+          _z: 3500000
+        b:
+          _x: 500000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 2000000
+          _y: 0
+          _z: 3250000
+      bounds:
+        min:
+          _x: 500000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 2000000
+          _y: 0
+          _z: 3500000
+      neighbors: 0d0000001c00000024000000
+      links: []
+    - points:
+      - _x: 6250000
+        _y: 0
+        _z: 2500000
+      - _x: 6500000
+        _y: 0
+        _z: 2750000
+      - _x: 5250000
+        _y: 0
+        _z: 4000000
+      edges:
+      - a:
+          _x: 6250000
+          _y: 0
+          _z: 2500000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 2750000
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 2750000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 6250000
+          _y: 0
+          _z: 2500000
+      bounds:
+        min:
+          _x: 5250000
+          _y: 0
+          _z: 2500000
+        max:
+          _x: 6500000
+          _y: 0
+          _z: 4000000
+      neighbors: 130000001e00000022000000
+      links: []
+    - points:
+      - _x: 6500000
+        _y: 0
+        _z: 2750000
+      - _x: 7750000
+        _y: 0
+        _z: 2750000
+      - _x: 5250000
+        _y: 0
+        _z: 4000000
+      edges:
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 2750000
+        b:
+          _x: 7750000
+          _y: 0
+          _z: 2750000
+      - a:
+          _x: 7750000
+          _y: 0
+          _z: 2750000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 2750000
+      bounds:
+        min:
+          _x: 5250000
+          _y: 0
+          _z: 2750000
+        max:
+          _x: 7750000
+          _y: 0
+          _z: 4000000
+      neighbors: 210000002e000000
+      links: []
+    - points:
+      - _x: 5250000
+        _y: 0
+        _z: 6250000
+      - _x: 6500000
+        _y: 0
+        _z: 6250000
+      - _x: 3750000
+        _y: 0
+        _z: 9500000
+      edges:
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 6250000
+        b:
+          _x: 6500000
+          _y: 0
+          _z: 6250000
+      - a:
+          _x: 6500000
+          _y: 0
+          _z: 6250000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 6250000
+      bounds:
+        min:
+          _x: 3750000
+          _y: 0
+          _z: 6250000
+        max:
+          _x: 6500000
+          _y: 0
+          _z: 9500000
+      neighbors: 0a00000025000000
+      links: []
+    - points:
+      - _x: 3250000
+        _y: 0
+        _z: 3250000
+      - _x: 2000000
+        _y: 0
+        _z: 3250000
+      - _x: 500000
+        _y: 0
+        _z: 500000
+      edges:
+      - a:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+        b:
+          _x: 2000000
+          _y: 0
+          _z: 3250000
+      - a:
+          _x: 2000000
+          _y: 0
+          _z: 3250000
+        b:
+          _x: 500000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+      bounds:
+        min:
+          _x: 500000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+      neighbors: 2000000011000000
+      links: []
+    - points:
+      - _x: 5000000
+        _y: 0
+        _z: 6000000
+      - _x: 5250000
+        _y: 0
+        _z: 6250000
+      - _x: 3750000
+        _y: 0
+        _z: 9500000
+      edges:
+      - a:
+          _x: 5000000
+          _y: 0
+          _z: 6000000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 6250000
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 6250000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 5000000
+          _y: 0
+          _z: 6000000
+      bounds:
+        min:
+          _x: 3750000
+          _y: 0
+          _z: 6000000
+        max:
+          _x: 5250000
+          _y: 0
+          _z: 9500000
+      neighbors: 050000002300000027000000
+      links: []
+    - points:
+      - _x: 6000000
+        _y: 0
+        _z: 2250000
+      - _x: 3500000
+        _y: 0
+        _z: 3500000
+      - _x: 3250000
+        _y: 0
+        _z: 3250000
+      edges:
+      - a:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 3500000
+          _y: 0
+          _z: 3500000
+      - a:
+          _x: 3500000
+          _y: 0
+          _z: 3500000
+        b:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+      - a:
+          _x: 3250000
+          _y: 0
+          _z: 3250000
+        b:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+      bounds:
+        min:
+          _x: 3250000
+          _y: 0
+          _z: 2250000
+        max:
+          _x: 6000000
+          _y: 0
+          _z: 3500000
+      neighbors: 0c0000001d00000029000000
+      links: []
+    - points:
+      - _x: 4750000
+        _y: 0
+        _z: 5750000
+      - _x: 5000000
+        _y: 0
+        _z: 6000000
+      - _x: 3750000
+        _y: 0
+        _z: 9500000
+      edges:
+      - a:
+          _x: 4750000
+          _y: 0
+          _z: 5750000
+        b:
+          _x: 5000000
+          _y: 0
+          _z: 6000000
+      - a:
+          _x: 5000000
+          _y: 0
+          _z: 6000000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 4750000
+          _y: 0
+          _z: 5750000
+      bounds:
+        min:
+          _x: 3750000
+          _y: 0
+          _z: 5750000
+        max:
+          _x: 5000000
+          _y: 0
+          _z: 9500000
+      neighbors: 040000002500000028000000
+      links: []
+    - points:
+      - _x: 4750000
+        _y: 0
+        _z: 5750000
+      - _x: 3750000
+        _y: 0
+        _z: 9500000
+      - _x: 3750000
+        _y: 0
+        _z: 3750000
+      edges:
+      - a:
+          _x: 4750000
+          _y: 0
+          _z: 5750000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 4750000
+          _y: 0
+          _z: 5750000
+      bounds:
+        min:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        max:
+          _x: 4750000
+          _y: 0
+          _z: 9500000
+      neighbors: 270000002a000000
+      links: []
+    - points:
+      - _x: 6000000
+        _y: 0
+        _z: 2250000
+      - _x: 3750000
+        _y: 0
+        _z: 3750000
+      - _x: 3500000
+        _y: 0
+        _z: 3500000
+      edges:
+      - a:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 3500000
+          _y: 0
+          _z: 3500000
+      - a:
+          _x: 3500000
+          _y: 0
+          _z: 3500000
+        b:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+      bounds:
+        min:
+          _x: 3500000
+          _y: 0
+          _z: 2250000
+        max:
+          _x: 6000000
+          _y: 0
+          _z: 3750000
+      neighbors: 0b000000260000002d000000
+      links: []
+    - points:
+      - _x: 4750000
+        _y: 0
+        _z: 4500000
+      - _x: 4750000
+        _y: 0
+        _z: 5750000
+      - _x: 3750000
+        _y: 0
+        _z: 3750000
+      edges:
+      - a:
+          _x: 4750000
+          _y: 0
+          _z: 4500000
+        b:
+          _x: 4750000
+          _y: 0
+          _z: 5750000
+      - a:
+          _x: 4750000
+          _y: 0
+          _z: 5750000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 4750000
+          _y: 0
+          _z: 4500000
+      bounds:
+        min:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        max:
+          _x: 4750000
+          _y: 0
+          _z: 5750000
+      neighbors: 280000002b000000
+      links: []
+    - points:
+      - _x: 5000000
+        _y: 0
+        _z: 4250000
+      - _x: 4750000
+        _y: 0
+        _z: 4500000
+      - _x: 3750000
+        _y: 0
+        _z: 3750000
+      edges:
+      - a:
+          _x: 5000000
+          _y: 0
+          _z: 4250000
+        b:
+          _x: 4750000
+          _y: 0
+          _z: 4500000
+      - a:
+          _x: 4750000
+          _y: 0
+          _z: 4500000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 5000000
+          _y: 0
+          _z: 4250000
+      bounds:
+        min:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        max:
+          _x: 5000000
+          _y: 0
+          _z: 4500000
+      neighbors: 030000002a0000002c000000
+      links: []
+    - points:
+      - _x: 5250000
+        _y: 0
+        _z: 4000000
+      - _x: 5000000
+        _y: 0
+        _z: 4250000
+      - _x: 3750000
+        _y: 0
+        _z: 3750000
+      edges:
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 5000000
+          _y: 0
+          _z: 4250000
+      - a:
+          _x: 5000000
+          _y: 0
+          _z: 4250000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+      bounds:
+        min:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        max:
+          _x: 5250000
+          _y: 0
+          _z: 4250000
+      neighbors: 020000002b0000002d000000
+      links: []
+    - points:
+      - _x: 3750000
+        _y: 0
+        _z: 3750000
+      - _x: 6000000
+        _y: 0
+        _z: 2250000
+      - _x: 5250000
+        _y: 0
+        _z: 4000000
+      edges:
+      - a:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+        b:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+      - a:
+          _x: 6000000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 3750000
+          _y: 0
+          _z: 3750000
+      bounds:
+        min:
+          _x: 3750000
+          _y: 0
+          _z: 2250000
+        max:
+          _x: 6000000
+          _y: 0
+          _z: 4000000
+      neighbors: 290000001e0000002c000000
+      links: []
+    - points:
+      - _x: 7750000
+        _y: 0
+        _z: 2750000
+      - _x: 5250000
+        _y: 0
+        _z: 4000000
+      - _x: 8250000
+        _y: 0
+        _z: 2250000
+      edges:
+      - a:
+          _x: 7750000
+          _y: 0
+          _z: 2750000
+        b:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+      - a:
+          _x: 5250000
+          _y: 0
+          _z: 4000000
+        b:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+      - a:
+          _x: 8250000
+          _y: 0
+          _z: 2250000
+        b:
+          _x: 7750000
+          _y: 0
+          _z: 2750000
+      bounds:
+        min:
+          _x: 5250000
+          _y: 0
+          _z: 2250000
+        max:
+          _x: 8250000
+          _y: 0
+          _z: 4000000
+      neighbors: 220000001a000000
+      links: []
+    - points:
+      - _x: 13500000
+        _y: 0
+        _z: 9500000
+      - _x: 13500000
+        _y: 0
+        _z: 500000
+      - _x: 22500000
+        _y: 0
+        _z: 500000
+      edges:
+      - a:
+          _x: 13500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 13500000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 13500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 22500000
+          _y: 0
+          _z: 500000
+      - a:
+          _x: 22500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 13500000
+          _y: 0
+          _z: 9500000
+      bounds:
+        min:
+          _x: 13500000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 22500000
+          _y: 0
+          _z: 9500000
+      neighbors: 30000000
+      links: []
+    - points:
+      - _x: 22500000
+        _y: 0
+        _z: 500000
+      - _x: 22500000
+        _y: 0
+        _z: 9500000
+      - _x: 13500000
+        _y: 0
+        _z: 9500000
+      edges:
+      - a:
+          _x: 22500000
+          _y: 0
+          _z: 500000
+        b:
+          _x: 22500000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 22500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 13500000
+          _y: 0
+          _z: 9500000
+      - a:
+          _x: 13500000
+          _y: 0
+          _z: 9500000
+        b:
+          _x: 22500000
+          _y: 0
+          _z: 500000
+      bounds:
+        min:
+          _x: 13500000
+          _y: 0
+          _z: 500000
+        max:
+          _x: 22500000
+          _y: 0
+          _z: 9500000
+      neighbors: 2f000000
+      links:
+      - neighbor: 50
+        cost:
+          _val: 0
+        from:
+          _x: 20520000
+          _y: 0
+          _z: 3140001
+        to:
+          _x: 20610000
+          _y: 0
+          _z: 15829999
+      - neighbor: 8
+        cost:
+          _val: 0
+        from:
+          _x: 15170877
+          _y: 0
+          _z: 8250106
+        to:
+          _x: 8330654
+          _y: 0
+          _z: 5408618
+    - points:
+      - _x: 13500000
+        _y: 0
+        _z: 20000000
+      - _x: 13500000
+        _y: 0
+        _z: 11000000
+      - _x: 22500000
+        _y: 0
+        _z: 11000000
+      edges:
+      - a:
+          _x: 13500000
+          _y: 0
+          _z: 20000000
+        b:
+          _x: 13500000
+          _y: 0
+          _z: 11000000
+      - a:
+          _x: 13500000
+          _y: 0
+          _z: 11000000
+        b:
+          _x: 22500000
+          _y: 0
+          _z: 11000000
+      - a:
+          _x: 22500000
+          _y: 0
+          _z: 11000000
+        b:
+          _x: 13500000
+          _y: 0
+          _z: 20000000
+      bounds:
+        min:
+          _x: 13500000
+          _y: 0
+          _z: 11000000
+        max:
+          _x: 22500000
+          _y: 0
+          _z: 20000000
+      neighbors: 32000000
+      links: []
+    - points:
+      - _x: 22500000
+        _y: 0
+        _z: 11000000
+      - _x: 22500000
+        _y: 0
+        _z: 20000000
+      - _x: 13500000
+        _y: 0
+        _z: 20000000
+      edges:
+      - a:
+          _x: 22500000
+          _y: 0
+          _z: 11000000
+        b:
+          _x: 22500000
+          _y: 0
+          _z: 20000000
+      - a:
+          _x: 22500000
+          _y: 0
+          _z: 20000000
+        b:
+          _x: 13500000
+          _y: 0
+          _z: 20000000
+      - a:
+          _x: 13500000
+          _y: 0
+          _z: 20000000
+        b:
+          _x: 22500000
+          _y: 0
+          _z: 11000000
+      bounds:
+        min:
+          _x: 13500000
+          _y: 0
+          _z: 11000000
+        max:
+          _x: 22500000
+          _y: 0
+          _z: 20000000
+      neighbors: 31000000
+      links:
+      - neighbor: 48
+        cost:
+          _val: 0
+        from:
+          _x: 20610000
+          _y: 0
+          _z: 15829999
+        to:
+          _x: 20520000
+          _y: 0
+          _z: 3140001
+  points:
+  - type: 1
+    position:
+      _x: 1100000
+      _y: 0
+      _z: 3609999
+  - type: 0
+    position:
+      _x: 2000000
+      _y: 0
+      _z: 3250000
+  - type: 0
+    position:
+      _x: 3250000
+      _y: 0
+      _z: 3250000
+  - type: 0
+    position:
+      _x: 3750000
+      _y: 0
+      _z: 3750000
+  - type: 0
+    position:
+      _x: 4750000
+      _y: 0
+      _z: 5750000
+  - type: 0
+    position:
+      _x: 5000000
+      _y: 0
+      _z: 6000000
+  - type: 0
+    position:
+      _x: 5250000
+      _y: 0
+      _z: 6250000
+  - type: 0
+    position:
+      _x: 6500000
+      _y: 0
+      _z: 6250000
+  - type: 3
+    position:
+      _x: 8330654
+      _y: 0
+      _z: 5408618
+  - type: 4
+    position:
+      _x: 15170877
+      _y: 0
+      _z: 8250106
+  - type: 3
+    position:
+      _x: 20520000
+      _y: 0
+      _z: 3140001
+  - type: 4
+    position:
+      _x: 20610000
+      _y: 0
+      _z: 15829999
+  - type: 2
+    position:
+      _x: 14079999
+      _y: 0
+      _z: 12550000
+  lastBuildReport:
+    inputTriangles: 636
+    walkableInputTriangles: 600
+    rasterizedCells: 4800
+    walkableCells: 3525
+    mergedRectangles: 0
+    delaunayRegions: 3
+    delaunayFallbackRegions: 0
+    outputTriangles: 51
+    addedLinks: 4
+    rejectedLinks: 0
+  hasBuildResult: 1
+  lastSerializedBytes: 42430
+  lastBuildMilliseconds: 236.8708
+--- !u!1 &1468204764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1468204768}
+  - component: {fileID: 1468204767}
+  - component: {fileID: 1468204766}
+  - component: {fileID: 1468204765}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 127
+  m_IsActive: 1
+--- !u!64 &1468204765
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468204764}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1468204766
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468204764}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1468204767
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468204764}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1468204768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468204764}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 825358550}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1538159545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1538159546}
+  m_Layer: 0
+  m_Name: obstacle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1538159546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538159545}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 104371954}
+  - {fileID: 280599833}
+  - {fileID: 1015350845}
+  m_Father: {fileID: 1054512621}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1748060700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1748060701}
+  m_Layer: 0
+  m_Name: link
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1748060701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748060700}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.5551462, z: -0, w: 0.8317528}
+  m_LocalPosition: {x: 11.750766, y: 0, z: 6.829363}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 680213296}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1987047560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987047565}
+  - component: {fileID: 1987047564}
+  - component: {fileID: 1987047563}
+  - component: {fileID: 1987047562}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 127
+  m_IsActive: 1
+--- !u!64 &1987047562
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987047560}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1987047563
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987047560}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1987047564
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987047560}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1987047565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987047560}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.04, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 825358550}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 140771370}
+  - {fileID: 179572740}
+  - {fileID: 1054512621}

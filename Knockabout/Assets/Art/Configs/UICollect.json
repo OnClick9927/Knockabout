@@ -1,0 +1,34 @@
+{
+    "datas": [
+        {
+            "path": "Assets/Art/Game/Prefabs/UI/Battle.prefab",
+            "isResourcePath": false,
+            "layer": 0,
+            "fullScreen": false
+        },
+        {
+            "path": "Assets/Art/Game/Prefabs/UI/LoadScene.prefab",
+            "isResourcePath": false,
+            "layer": 6,
+            "fullScreen": false
+        },
+        {
+            "path": "Assets/Art/Game/Prefabs/UI/Login.prefab",
+            "isResourcePath": false,
+            "layer": 0,
+            "fullScreen": false
+        },
+        {
+            "path": "Assets/Art/Game/Prefabs/UI/Main.prefab",
+            "isResourcePath": false,
+            "layer": 0,
+            "fullScreen": false
+        },
+        {
+            "path": "Assets/Art/Game/Prefabs/UI/Tip.prefab",
+            "isResourcePath": false,
+            "layer": 3,
+            "fullScreen": false
+        }
+    ]
+}

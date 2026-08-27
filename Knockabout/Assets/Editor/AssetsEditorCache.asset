@@ -1,0 +1,4093 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 903a8bf7202c1eb49acfe9f560da2acc, type: 3}
+  m_Name: AssetsEditorCache
+  m_EditorClassIdentifier: 
+  tree_asset_all:
+    assets:
+    - path: Assets/Art
+      name: Art
+      length: 57215046
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets
+      tags: []
+      usage: []
+      record: 1
+      guid: a1148991c3d65ee42b662949ab51c68e
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs
+      name: Configs
+      length: 5427
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art
+      tags: []
+      usage: []
+      record: 1
+      guid: e41f38562679d424eb5900bfcfcd53e3
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/Localization Data.asset
+      name: Localization Data.asset
+      length: 3370
+      hash: a99239bdeda21dc5f668bfa6a2dd610a
+      dependence: []
+      type: 14
+      directory: Assets/Art/Configs
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/GGame.prefab
+      record: 1
+      guid: f75869778a6f68b41bcf73c3564c8dd6
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/New UI Layer Data.asset
+      name: New UI Layer Data.asset
+      length: 510
+      hash: 31c527494d87a611d117ec0d1d349fda
+      dependence: []
+      type: 14
+      directory: Assets/Art/Configs
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/GGame.prefab
+      record: 1
+      guid: 60056a483262de14795c2cb09e3765c4
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/role_tbrole.bytes
+      name: role_tbrole.bytes
+      length: 80
+      hash: 1dc9cc31748520def1efb33a51c7cc12
+      dependence: []
+      type: 15
+      directory: Assets/Art/Configs
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: 6ab48f8627ccbf14591a18f4f7a1e977
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/tbcarddata.bytes
+      name: tbcarddata.bytes
+      length: 22
+      hash: 12589adc58a7c647bbf120fcfa3ee7a8
+      dependence: []
+      type: 15
+      directory: Assets/Art/Configs
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: 4b9d844a87d739a429305a46d6b881f8
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/tbglobaldata.bytes
+      name: tbglobaldata.bytes
+      length: 17
+      hash: dbeb567f60ada44a2b4f136f24f55933
+      dependence: []
+      type: 15
+      directory: Assets/Art/Configs
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: c66f5975794cd294a8b482983561b013
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/tbitemdata.bytes
+      name: tbitemdata.bytes
+      length: 23
+      hash: a2bcb1102639b31e3957ca4ae816083c
+      dependence: []
+      type: 15
+      directory: Assets/Art/Configs
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: b52521b3252aad249a907e4bf05bd259
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/tbleveldata.bytes
+      name: tbleveldata.bytes
+      length: 62
+      hash: b1bd8d4f33eb6b3d971de5fa1d663632
+      dependence: []
+      type: 15
+      directory: Assets/Art/Configs
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: 25db1a9d864961e40a265a186fe52290
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/tbplayerproperty.bytes
+      name: tbplayerproperty.bytes
+      length: 7
+      hash: d7bb3c8071928dbcab0e706c91821fbf
+      dependence: []
+      type: 15
+      directory: Assets/Art/Configs
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: f72d18666fa8cac4d93b7b5384d94474
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/tbrolelev.bytes
+      name: tbrolelev.bytes
+      length: 10
+      hash: 5c0662e08476dc26a1bcd78172ef91ff
+      dependence: []
+      type: 15
+      directory: Assets/Art/Configs
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: 2eec51e6be11ca84f8251f0b175aca9f
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/tbsounddata.bytes
+      name: tbsounddata.bytes
+      length: 383
+      hash: 88472e97e29ab3e98e0ec9f53cefc047
+      dependence: []
+      type: 15
+      directory: Assets/Art/Configs
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: e9785744dcaecda4f84da135fe7e9007
+      in_pkgs:
+      - project
+    - path: Assets/Art/Configs/UICollect.json
+      name: UICollect.json
+      length: 943
+      hash: ecd3e82362c58d8ab8769198e0f77cd8
+      dependence: []
+      type: 15
+      directory: Assets/Art/Configs
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: 0edda7d88e7485b47bfd4c3dedeeea8c
+      in_pkgs:
+      - project
+    - path: Assets/Art/Font
+      name: Font
+      length: 43242361
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art
+      tags: []
+      usage: []
+      record: 1
+      guid: b43a927081f84884ab8d71d3ecf727d1
+      in_pkgs:
+      - project
+    - path: Assets/Art/Font/jiangchengheiti baise.mat
+      name: jiangchengheiti baise.mat
+      length: 3148
+      hash: 093ef97091dc71bf7ee7ef7a2402d2ac
+      dependence:
+      - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      - Assets/Art/Font/jiangchengheiti.asset
+      - Assets/Art/Font/jiangchengheiti.ttf
+      type: 7
+      directory: Assets/Art/Font
+      tags: []
+      usage: []
+      record: 1
+      guid: 277d0922113e4114fab1d7b8721f1c72
+      in_pkgs:
+      - project
+    - path: Assets/Art/Font/jiangchengheiti heise_chu.mat
+      name: jiangchengheiti heise_chu.mat
+      length: 3152
+      hash: 9b766d9dbaa4ed7cfacd72a70495e335
+      dependence:
+      - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      - Assets/Art/Font/jiangchengheiti.asset
+      - Assets/Art/Font/jiangchengheiti.ttf
+      type: 7
+      directory: Assets/Art/Font
+      tags: []
+      usage: []
+      record: 1
+      guid: 10de94c089e2860488b49644ec3cc8e5
+      in_pkgs:
+      - project
+    - path: Assets/Art/Font/jiangchengheiti heise_xi.mat
+      name: jiangchengheiti heise_xi.mat
+      length: 3157
+      hash: eee468af65b895378f93c8ea5a46f17b
+      dependence:
+      - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      - Assets/Art/Font/jiangchengheiti.asset
+      - Assets/Art/Font/jiangchengheiti.ttf
+      type: 7
+      directory: Assets/Art/Font
+      tags: []
+      usage: []
+      record: 1
+      guid: 63c0743050d10b0449b507a4a428c8b1
+      in_pkgs:
+      - project
+    - path: Assets/Art/Font/jiangchengheiti lvse.mat
+      name: jiangchengheiti lvse.mat
+      length: 3180
+      hash: 9bd3f7216c1d6114f7a5ef510e93e699
+      dependence:
+      - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      - Assets/Art/Font/jiangchengheiti.asset
+      - Assets/Art/Font/jiangchengheiti.ttf
+      type: 7
+      directory: Assets/Art/Font
+      tags: []
+      usage: []
+      record: 1
+      guid: e6a8968de1686524da1dc9a849f25fba
+      in_pkgs:
+      - project
+    - path: Assets/Art/Font/jiangchengheiti zise.mat
+      name: jiangchengheiti zise.mat
+      length: 3174
+      hash: 9a907d3770b211f35cd56d78152543bb
+      dependence:
+      - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      - Assets/Art/Font/jiangchengheiti.asset
+      - Assets/Art/Font/jiangchengheiti.ttf
+      type: 7
+      directory: Assets/Art/Font
+      tags: []
+      usage: []
+      record: 1
+      guid: 46e1a4fef2df041418e10ab1cb40a348
+      in_pkgs:
+      - project
+    - path: Assets/Art/Font/jiangchengheiti.asset
+      name: jiangchengheiti.asset
+      length: 34075986
+      hash: 2aa675b500ee9ff28902febb01e25d97
+      dependence:
+      - Assets/Art/Font/jiangchengheiti.ttf
+      - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      type: 14
+      directory: Assets/Art/Font
+      tags: []
+      usage:
+      - Assets/Art/Font/jiangchengheiti baise.mat
+      - Assets/Art/Font/jiangchengheiti heise_chu.mat
+      - Assets/Art/Font/jiangchengheiti heise_xi.mat
+      - Assets/Art/Font/jiangchengheiti lvse.mat
+      - Assets/Art/Font/jiangchengheiti zise.mat
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      - Assets/Art/Game/Prefabs/UI/Login.prefab
+      - Assets/Art/Game/Prefabs/UI/Tip.prefab
+      record: 1
+      guid: 71c4eb3b3936ecb4d89b22c275a82bd5
+      in_pkgs:
+      - project
+    - path: Assets/Art/Font/jiangchengheiti.ttf
+      name: jiangchengheiti.ttf
+      length: 9150564
+      hash: f38f60df29910e46823a1d832043a57a
+      dependence: []
+      type: 10
+      directory: Assets/Art/Font
+      tags: []
+      usage:
+      - Assets/Art/Font/jiangchengheiti baise.mat
+      - Assets/Art/Font/jiangchengheiti heise_chu.mat
+      - Assets/Art/Font/jiangchengheiti heise_xi.mat
+      - Assets/Art/Font/jiangchengheiti lvse.mat
+      - Assets/Art/Font/jiangchengheiti zise.mat
+      - Assets/Art/Font/jiangchengheiti.asset
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      - Assets/Art/Game/Prefabs/UI/Login.prefab
+      - Assets/Art/Game/Prefabs/UI/Tip.prefab
+      record: 1
+      guid: 94c1bf0851da8b54a8c8a78c762bf42e
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game
+      name: Game
+      length: 13762393
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art
+      tags: []
+      usage: []
+      record: 1
+      guid: 869cf7dd7cb104946959fbc1d5db7a9e
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Audio
+      name: Audio
+      length: 5251299
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/Game
+      tags: []
+      usage: []
+      record: 1
+      guid: 56dc912bfd5797040ad562777fec77a6
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Audio/\u53D1\u5C04.wav"
+      name: "\u53D1\u5C04.wav"
+      length: 2348
+      hash: 21d1fa6931c7f3cd705ed9c63a0367c6
+      dependence: []
+      type: 20
+      directory: Assets/Art/Game/Audio
+      tags: []
+      usage: []
+      record: 1
+      guid: f5983154b54769f4c9e9bb7cde57ce6a
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Audio/\u5546\u5E97\u80CC\u666F.mp3"
+      name: "\u5546\u5E97\u80CC\u666F.mp3"
+      length: 2847391
+      hash: 53ab6686d2de253d11936e3b751edd7e
+      dependence: []
+      type: 20
+      directory: Assets/Art/Game/Audio
+      tags: []
+      usage: []
+      record: 1
+      guid: 6913212d9fc6a9e4bb8be950e935ec94
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Audio/\u5931\u8D25.mp3"
+      name: "\u5931\u8D25.mp3"
+      length: 32436
+      hash: d307e5448633509a1f0fe624874639a8
+      dependence: []
+      type: 20
+      directory: Assets/Art/Game/Audio
+      tags: []
+      usage: []
+      record: 1
+      guid: 8c0d0d7f99c6aa147af44629d1e9e18c
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Audio/\u67F1\u5B50\u78B0\u649E.mp3"
+      name: "\u67F1\u5B50\u78B0\u649E.mp3"
+      length: 44974
+      hash: 1c3792ea13c41be29741428fa56c4d01
+      dependence: []
+      type: 20
+      directory: Assets/Art/Game/Audio
+      tags: []
+      usage: []
+      record: 1
+      guid: 12725d1c1c2832f40b4bb27fc6b90927
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Audio/\u83B7\u5F97\u5956\u52B1.mp3"
+      name: "\u83B7\u5F97\u5956\u52B1.mp3"
+      length: 128566
+      hash: 9ffac7bbe4d9eaebb67a292395992ea9
+      dependence: []
+      type: 20
+      directory: Assets/Art/Game/Audio
+      tags: []
+      usage: []
+      record: 1
+      guid: 2af181347bf52894588d9171fab967aa
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Audio/\u8857\u673Abgm.mp3"
+      name: "\u8857\u673Abgm.mp3"
+      length: 2003113
+      hash: 9dd86b40eca7d592000e3c930993dbe6
+      dependence: []
+      type: 20
+      directory: Assets/Art/Game/Audio
+      tags: []
+      usage: []
+      record: 1
+      guid: 54d46998efe64854b9e23d93485c89c6
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Audio/\u8857\u673A\u4E2D\u5956.mp3"
+      name: "\u8857\u673A\u4E2D\u5956.mp3"
+      length: 122297
+      hash: 702999879b3bf718103b33b8a005ea1a
+      dependence: []
+      type: 20
+      directory: Assets/Art/Game/Audio
+      tags: []
+      usage: []
+      record: 1
+      guid: 6187311eeb3eb5845a0b656b89ceeb60
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Audio/\u8857\u673A\u6309\u94AE.mp3"
+      name: "\u8857\u673A\u6309\u94AE.mp3"
+      length: 12604
+      hash: c78a598f7ea292a51f6d61299bcc5e36
+      dependence: []
+      type: 20
+      directory: Assets/Art/Game/Audio
+      tags: []
+      usage: []
+      record: 1
+      guid: 07c503fd3d8183b40b0bc367e202ab81
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Audio/\u98DE\u5251.mp3"
+      name: "\u98DE\u5251.mp3"
+      length: 57570
+      hash: 4fc46164c0bff79043f1e73a17170006
+      dependence: []
+      type: 20
+      directory: Assets/Art/Game/Audio
+      tags: []
+      usage: []
+      record: 1
+      guid: cb60bfa509e388445ac399318374138c
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Prefabs
+      name: Prefabs
+      length: 114784
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/Game
+      tags: []
+      usage: []
+      record: 1
+      guid: ebdf94491a51b8641becf273db0183f7
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Prefabs/GGame.prefab
+      name: GGame.prefab
+      length: 9896
+      hash: 6e022b52977153d3ca9998e8147b6fab
+      dependence:
+      - Assets/Art/Configs/Localization Data.asset
+      - Assets/Art/GamePlay/Prefabs/GameAssets.prefab
+      - Assets/Art/Configs/New UI Layer Data.asset
+      type: 9
+      directory: Assets/Art/Game/Prefabs
+      tags: []
+      usage: []
+      record: 1
+      guid: 9b068acb5b49f664c81df12d7ffbe3e8
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Prefabs/UI
+      name: UI
+      length: 104888
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/Game/Prefabs
+      tags: []
+      usage: []
+      record: 1
+      guid: 4a38108e9f36abf41a456581f051a087
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Prefabs/UI/Battle.prefab
+      name: Battle.prefab
+      length: 21145
+      hash: bb191279486b63512719835fbaf13e64
+      dependence:
+      - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+      - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+      type: 9
+      directory: Assets/Art/Game/Prefabs/UI
+      tags: []
+      usage: []
+      record: 1
+      guid: c06d9cde7ed13774087783e869749ff2
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      name: LoadScene.prefab
+      length: 18180
+      hash: 05d376ba3d1905a793ede2ca28b714b8
+      dependence:
+      - Assets/Art/Font/jiangchengheiti.asset
+      - Assets/Art/Font/jiangchengheiti.ttf
+      - Assets/Art/Game/Res/Ani/LoadScene/Exit.anim
+      - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+      - Assets/Art/Game/Res/Ani/LoadScene/Show.anim
+      - "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
+      - Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+      - Assets/Art/Game/Res/UI/Login/element_hong.png
+      - Assets/Art/Game/Res/UI/Login/element_lan.png
+      - "Assets/Art/Game/Res/UI/Login/\u7EC4-3.png"
+      type: 9
+      directory: Assets/Art/Game/Prefabs/UI
+      tags: []
+      usage: []
+      record: 1
+      guid: cfac2264ee1a6b14c8d9344c66a04d9e
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Prefabs/UI/Login.prefab
+      name: Login.prefab
+      length: 41091
+      hash: c62c45ee1e484c0fddbbf8666b803803
+      dependence:
+      - Assets/Art/Font/jiangchengheiti.asset
+      - Assets/Art/Font/jiangchengheiti.ttf
+      - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+      - "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
+      type: 9
+      directory: Assets/Art/Game/Prefabs/UI
+      tags: []
+      usage: []
+      record: 1
+      guid: 8ead7fe60fb87b24fb74fc310f4392aa
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Prefabs/UI/Main.prefab
+      name: Main.prefab
+      length: 16043
+      hash: 46e237063606984afddd0ac4dc3c3ca9
+      dependence:
+      - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+      - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+      - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+      type: 9
+      directory: Assets/Art/Game/Prefabs/UI
+      tags: []
+      usage: []
+      record: 1
+      guid: fec98e4dcd95d1a47b5c13a7e18a77d9
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Prefabs/UI/Tip.prefab
+      name: Tip.prefab
+      length: 8429
+      hash: 104f5e4565b6ce73618a91e0ecb46219
+      dependence:
+      - Assets/Art/Font/jiangchengheiti.asset
+      - Assets/Art/Font/jiangchengheiti.ttf
+      - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      type: 9
+      directory: Assets/Art/Game/Prefabs/UI
+      tags: []
+      usage: []
+      record: 1
+      guid: e6c2d773b5a6a574cb74a3bb9111b117
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res
+      name: Res
+      length: 8384011
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/Game
+      tags: []
+      usage: []
+      record: 1
+      guid: ea747a66e0aeb8a4b811c670866aa161
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res/Ani
+      name: Ani
+      length: 34179
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/Game/Res
+      tags: []
+      usage: []
+      record: 1
+      guid: 4d2f662b4f2530d4b83b20f502bdeb4f
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res/Ani/LoadScene
+      name: LoadScene
+      length: 34179
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/Game/Res/Ani
+      tags: []
+      usage: []
+      record: 1
+      guid: 60192a11687cb0945a174f96bf6b6bb2
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+      name: Ani.controller
+      length: 5971
+      hash: 0a784fc1b7607d6d2072e473ed6de364
+      dependence:
+      - Assets/Art/Game/Res/Ani/LoadScene/Exit.anim
+      - Assets/Art/Game/Res/Ani/LoadScene/Show.anim
+      type: 13
+      directory: Assets/Art/Game/Res/Ani/LoadScene
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      record: 1
+      guid: e031626d01727b642ad9fac0f7740880
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res/Ani/LoadScene/Exit.anim
+      name: Exit.anim
+      length: 12106
+      hash: b69176385a9cf314a163f547e2d9256c
+      dependence: []
+      type: 12
+      directory: Assets/Art/Game/Res/Ani/LoadScene
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      - Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+      record: 1
+      guid: 0ba1eefc5df1e1c469ce6c29f5559f8f
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res/Ani/LoadScene/Show.anim
+      name: Show.anim
+      length: 16102
+      hash: b62ae7052a68897c0a984055c9274a08
+      dependence: []
+      type: 12
+      directory: Assets/Art/Game/Res/Ani/LoadScene
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      - Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+      record: 1
+      guid: 0241b041b0135044e91722b6d3de910d
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res/UI
+      name: UI
+      length: 8349832
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/Game/Res
+      tags: []
+      usage: []
+      record: 1
+      guid: bf5161afb1d417a4c9a2346823f59c52
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res/UI/Login
+      name: Login
+      length: 8349832
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/Game/Res/UI
+      tags: []
+      usage: []
+      record: 1
+      guid: 94a56725f55faad4db549900f5db268c
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res/UI/Login/element_hong.png
+      name: element_hong.png
+      length: 1468800
+      hash: 40c1c30b25e6cd368e5e446a74502d42
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      record: 1
+      guid: 057be3172da49f14c8822a8de7921188
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res/UI/Login/element_lan.png
+      name: element_lan.png
+      length: 1471680
+      hash: 5911fce1e7d8346a6ed116451cf10d32
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      record: 1
+      guid: b1beb7db1bc9a3f45be9b8447ae028a0
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Res/UI/Login/icon.png
+      name: icon.png
+      length: 524288
+      hash: 69bb7853aa4ad8db79c5087426fa99b5
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage: []
+      record: 1
+      guid: 86d4d5542b67dcb40bc90a4d92e0365e
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Res/UI/Login/\u5305\u5B50\u76AE\u5DE5\u4F5C\u5BA4\u56FE\u6807.png"
+      name: "\u5305\u5B50\u76AE\u5DE5\u4F5C\u5BA4\u56FE\u6807.png"
+      length: 262144
+      hash: 5d559b216b6c3cc872ea07614fb2d005
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage: []
+      record: 1
+      guid: 9db487dc39cfe164b944c2f8bdafbb46
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Res/UI/Login/\u53D8\u4F53=\u9ED8\u8BA4\u5706\u89D2\u77E9\u5F62,
+        \u989C\u8272=\u6DF1\u9083\u9ED1@2x.png"
+      name: "\u53D8\u4F53=\u9ED8\u8BA4\u5706\u89D2\u77E9\u5F62, \u989C\u8272=\u6DF1\u9083\u9ED1@2x.png"
+      length: 54000
+      hash: 23a6e7283d8b076bf14df1a8fdc0ebbd
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage: []
+      record: 1
+      guid: c2fa14fd55ee6804b94d1a8b9dc2a610
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+      name: "\u56FE\u5C42 25.png"
+      length: 73728
+      hash: 80316a56a07cb72fc3f140c1e83173ef
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      - Assets/Art/Game/Prefabs/UI/Login.prefab
+      - Assets/Art/Game/Prefabs/UI/Main.prefab
+      record: 1
+      guid: c6528388ea24aff4e9afbc3d517626a4
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Res/UI/Login/\u7EC4 3.png"
+      name: "\u7EC4 3.png"
+      length: 7392
+      hash: da9072073f78ae5073696b7a5a9e2b39
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage: []
+      record: 1
+      guid: a29434bd3d4d8834b89eec449b87ed87
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
+      name: "\u7EC4 3\u9053\u5177.png"
+      length: 4071424
+      hash: f0accd57fd058523f49ced2728126445
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      - Assets/Art/Game/Prefabs/UI/Login.prefab
+      record: 1
+      guid: cd8254c79c1e0d44d90694eca7f139a4
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Res/UI/Login/\u7EC4-3.png"
+      name: "\u7EC4-3.png"
+      length: 214656
+      hash: 77d78f464c22c8ae2222716ae7fdbeda
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      record: 1
+      guid: 50c7b50485c042e49a554e0311cb884a
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Res/UI/Login/\u8FDB\u5EA6\u6761 \u62F7\u8D1D.png"
+      name: "\u8FDB\u5EA6\u6761 \u62F7\u8D1D.png"
+      length: 100860
+      hash: 21b328823e889528b52a680fece14327
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage: []
+      record: 1
+      guid: b145675001b136249a0743eff432d9d5
+      in_pkgs:
+      - project
+    - path: "Assets/Art/Game/Res/UI/Login/\u8FDB\u5EA6\u6761 \u62F7\u8D1D1.png"
+      name: "\u8FDB\u5EA6\u6761 \u62F7\u8D1D1.png"
+      length: 100860
+      hash: 58343ef82d71dcc0382b4675caadb1bb
+      dependence: []
+      type: 3
+      directory: Assets/Art/Game/Res/UI/Login
+      tags: []
+      usage: []
+      record: 1
+      guid: 1665c3b861da4f8479a6696acfe16d55
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Scenes
+      name: Scenes
+      length: 9902
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/Game
+      tags: []
+      usage: []
+      record: 1
+      guid: c9912b3c5f7e5c9479b85af5e06a19ec
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Scenes/Login.unity
+      name: Login.unity
+      length: 4956
+      hash: ef428253f6a22174f8c1459247f6ea62
+      dependence: []
+      type: 6
+      directory: Assets/Art/Game/Scenes
+      tags: []
+      usage: []
+      record: 1
+      guid: c4e2b7130a9c8c445ab9b6b20e521c30
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/Scenes/Main.unity
+      name: Main.unity
+      length: 4946
+      hash: dc2c03ef95963d79a53da3e8ad55c9b6
+      dependence: []
+      type: 6
+      directory: Assets/Art/Game/Scenes
+      tags: []
+      usage: []
+      record: 1
+      guid: 1b0642826c3fd35448b5705a025ef87d
+      in_pkgs:
+      - project
+    - path: Assets/Art/Game/shadervariants.shadervariants
+      name: shadervariants.shadervariants
+      length: 2397
+      hash: de6ef94debf39bc2c1dd87bbb319229b
+      dependence:
+      - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+      type: 22
+      directory: Assets/Art/Game
+      tags: []
+      usage: []
+      record: 1
+      guid: 5be5a471fbfbf5c44873dc241469731a
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay
+      name: GamePlay
+      length: 198156
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art
+      tags: []
+      usage: []
+      record: 1
+      guid: 4bece1d348dc76b4b97b6eeea84009c7
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/AbilityAsset.txt
+      name: AbilityAsset.txt
+      length: 1523
+      hash: afc81aea23b0eabd3f466eebc6ea16c0
+      dependence: []
+      type: 15
+      directory: Assets/Art/GamePlay
+      tags: []
+      usage: []
+      record: 1
+      guid: e1a79d3bb9d579641875c9b8f53c2391
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/ActorModifyAsset.txt
+      name: ActorModifyAsset.txt
+      length: 1423
+      hash: 06c8111588e0b55ce7d7529dcc08b913
+      dependence: []
+      type: 15
+      directory: Assets/Art/GamePlay
+      tags: []
+      usage: []
+      record: 1
+      guid: b434718f970180346b95a2a1a44940e4
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/BT
+      name: BT
+      length: 9955
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/GamePlay
+      tags: []
+      usage: []
+      record: 1
+      guid: b69c27525ef222e49afb14ed4c8b4b41
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/BT/1_1.graph.bytes
+      name: 1_1.graph.bytes
+      length: 9955
+      hash: 36e4fb72ecde38bdef0d4ef77858e9e8
+      dependence: []
+      type: 15
+      directory: Assets/Art/GamePlay/BT
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: 919d3935449179d4d8ddf2b01b04a7cb
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/BuffAsset.txt
+      name: BuffAsset.txt
+      length: 1625
+      hash: 08080373b7967b40705f58c2a2fdec08
+      dependence: []
+      type: 15
+      directory: Assets/Art/GamePlay
+      tags: []
+      usage: []
+      record: 1
+      guid: ce8c525a0f9a0ac47a1c28b39f25f6e4
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Prefabs
+      name: Prefabs
+      length: 10911
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/GamePlay
+      tags: []
+      usage: []
+      record: 1
+      guid: 6adb248069411c747b1e3b88fbfcfd1f
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Prefabs/GameAssets.prefab
+      name: GameAssets.prefab
+      length: 1666
+      hash: 889ec764b563079c81ab1d3f051040a5
+      dependence: []
+      type: 9
+      directory: Assets/Art/GamePlay/Prefabs
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/GGame.prefab
+      record: 1
+      guid: 15041ab3fa5ee9442bc3d98460610a28
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Prefabs/HealthBar.prefab
+      name: HealthBar.prefab
+      length: 2972
+      hash: 2a5bc28dd5758d188f3c5ad138dd991b
+      dependence:
+      - Assets/AOT/Scripts/Unity-Logs-Viewer/Images/error_icon.png
+      - Assets/Shaders/GpuSlider/HealthBar.shader
+      - Assets/Shaders/GpuSlider/HealthBar.mat
+      type: 9
+      directory: Assets/Art/GamePlay/Prefabs
+      tags: []
+      usage: []
+      record: 1
+      guid: 68cae91f92ba25a46a225c3ffff83075
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Prefabs/House.prefab
+      name: House.prefab
+      length: 3826
+      hash: d77d1612c922790b050c1170e5de5521
+      dependence: []
+      type: 9
+      directory: Assets/Art/GamePlay/Prefabs
+      tags: []
+      usage: []
+      record: 1
+      guid: 409d3d8e097383a43becf748059b8841
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Prefabs/Role.prefab
+      name: Role.prefab
+      length: 2447
+      hash: 1002195eeda6bc7f3fc5ac0020c53b91
+      dependence: []
+      type: 9
+      directory: Assets/Art/GamePlay/Prefabs
+      tags: []
+      usage: []
+      record: 1
+      guid: 71a398da971b11747bf8a30cd45de58f
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Role
+      name: Role
+      length: 2444
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/GamePlay
+      tags: []
+      usage: []
+      record: 1
+      guid: 3820ea8c696c5c246be3f8072522ae03
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Role/0.prefab
+      name: 0.prefab
+      length: 2444
+      hash: 92063f7f8e0f09aba156648440232e29
+      dependence: []
+      type: 9
+      directory: Assets/Art/GamePlay/Role
+      tags: []
+      usage: []
+      record: 1
+      guid: a8161718edce03842bcd9bf2ecaee1a2
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Scene
+      name: Scene
+      length: 169202
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/GamePlay
+      tags: []
+      usage: []
+      record: 1
+      guid: 5c77c9e62bf41354d95878b316ef224c
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Scene/0
+      name: 0
+      length: 149464
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/GamePlay/Scene
+      tags: []
+      usage: []
+      record: 1
+      guid: c140aa2db1c3cf1468fd35db4b94dc43
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Scene/0/LightingData.asset
+      name: LightingData.asset
+      length: 18232
+      hash: 1ff37f63558753e354e80cf96f0e1cb7
+      dependence:
+      - Assets/Art/GamePlay/Scene/0.unity
+      - Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
+      type: 24
+      directory: Assets/Art/GamePlay/Scene/0
+      tags: []
+      usage:
+      - Assets/Art/GamePlay/Scene/0.unity
+      record: 1
+      guid: bd5230512906d9f4a9d70a0a1fcc886d
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
+      name: ReflectionProbe-0.exr
+      length: 131232
+      hash: fd5f55643c68f6a4c844406ee7f5a391
+      dependence: []
+      type: 4
+      directory: Assets/Art/GamePlay/Scene/0
+      tags: []
+      usage:
+      - Assets/Art/GamePlay/Scene/0/LightingData.asset
+      - Assets/Art/GamePlay/Scene/0.unity
+      record: 1
+      guid: 3054678d923b68346aea04c3b7114fee
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Scene/0.unity
+      name: 0.unity
+      length: 18465
+      hash: 584ab6f8136183906541e402a9fce900
+      dependence:
+      - Assets/Art/GamePlay/Scene/0/LightingData.asset
+      - Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
+      type: 6
+      directory: Assets/Art/GamePlay/Scene
+      tags: []
+      usage:
+      - Assets/Art/GamePlay/Scene/0/LightingData.asset
+      record: 1
+      guid: e4c42db2b14342b40a49ef16c7d97cb6
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Scene/plane.mat
+      name: plane.mat
+      length: 1273
+      hash: 7a07d3222c2abf0401953a49fcc5708b
+      dependence: []
+      type: 7
+      directory: Assets/Art/GamePlay/Scene
+      tags: []
+      usage: []
+      record: 1
+      guid: 1748f79a550ed4b438c9ce37dabc9879
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Skill
+      name: Skill
+      length: 1073
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/GamePlay
+      tags: []
+      usage: []
+      record: 1
+      guid: 2627d65dcbaa2ab4b8b0f92ce7c43804
+      in_pkgs:
+      - project
+    - path: Assets/Art/GamePlay/Skill/1.graph.bytes
+      name: 1.graph.bytes
+      length: 1073
+      hash: 38759a4db17b84a2fe4918d7328292e4
+      dependence: []
+      type: 15
+      directory: Assets/Art/GamePlay/Skill
+      tags:
+      - Config
+      usage: []
+      record: 1
+      guid: 61665d1d623fa1a4a8010c376d6bd807
+      in_pkgs:
+      - project
+    - path: Assets/Art/Shaders
+      name: Shaders
+      length: 6709
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art
+      tags: []
+      usage: []
+      record: 1
+      guid: 1fb9ec6415db29a4da787a4b5aaf2c87
+      in_pkgs:
+      - project
+    - path: Assets/Art/Shaders/Custom2DGrayWithSwitch.shader
+      name: Custom2DGrayWithSwitch.shader
+      length: 2042
+      hash: 3bee70f40c631de25c5914bc4fdccfe3
+      dependence: []
+      type: 21
+      directory: Assets/Art/Shaders
+      tags: []
+      usage: []
+      record: 1
+      guid: a653abbbbec4fe94a8ed86f3d226a49f
+      in_pkgs:
+      - project
+    - path: Assets/Art/Shaders/GpuSlider
+      name: GpuSlider
+      length: 4667
+      hash: 
+      dependence: []
+      type: 2
+      directory: Assets/Art/Shaders
+      tags: []
+      usage: []
+      record: 1
+      guid: 60302e0ddcdd7c54999e23ff743ad867
+      in_pkgs:
+      - project
+    - path: Assets/Art/Shaders/GpuSlider/HealthBar.mat
+      name: HealthBar.mat
+      length: 1105
+      hash: 38c6882fc96c9277667e7a262c03fe60
+      dependence:
+      - Assets/AOT/Scripts/Unity-Logs-Viewer/Images/error_icon.png
+      - Assets/Art/Shaders/GpuSlider/HealthBar.shader
+      type: 7
+      directory: Assets/Art/Shaders/GpuSlider
+      tags: []
+      usage: []
+      record: 1
+      guid: 298ef91d7da9112468a8380199ec5944
+      in_pkgs:
+      - project
+    - path: Assets/Art/Shaders/GpuSlider/HealthBar.shader
+      name: HealthBar.shader
+      length: 3562
+      hash: d4d5eba50413a53543115b23de7f2105
+      dependence: []
+      type: 21
+      directory: Assets/Art/Shaders/GpuSlider
+      tags: []
+      usage:
+      - Assets/Art/Shaders/GpuSlider/HealthBar.mat
+      record: 1
+      guid: 5fb47381e1d182e44a4bb196e53c4946
+      in_pkgs:
+      - project
+    - path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+      name: TMP_SDF.shader
+      length: 10917
+      hash: 67dc07dbe5e8742f7e7b234617303e97
+      dependence: []
+      type: 21
+      directory: Assets/TextMesh Pro/Shaders
+      tags: []
+      usage:
+      - Assets/Art/Font/jiangchengheiti baise.mat
+      - Assets/Art/Font/jiangchengheiti heise_chu.mat
+      - Assets/Art/Font/jiangchengheiti heise_xi.mat
+      - Assets/Art/Font/jiangchengheiti lvse.mat
+      - Assets/Art/Font/jiangchengheiti zise.mat
+      - Assets/Art/Font/jiangchengheiti.asset
+      - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+      - Assets/Art/Game/Prefabs/UI/Login.prefab
+      - Assets/Art/Game/Prefabs/UI/Tip.prefab
+      - Assets/Art/Game/shadervariants.shadervariants
+      record: 1
+      guid: 68e6db2ebdc24f95958faec2be5558d6
+      in_pkgs:
+      - project
+    - path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+      name: TMP_SDF-Mobile.shader
+      length: 7914
+      hash: d236bb724260067379b11736bb8c6e91
+      dependence: []
+      type: 21
+      directory: Assets/TextMesh Pro/Shaders
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/UI/Battle.prefab
+      - Assets/Art/Game/Prefabs/UI/Main.prefab
+      - Assets/Art/Game/shadervariants.shadervariants
+      record: 1
+      guid: fe393ace9b354375a9cb14cdbbc28be4
+      in_pkgs:
+      - project
+    - path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+      name: LiberationSans.ttf
+      length: 350200
+      hash: bbbd0bdbfba093dec2ee4ca8b62e61f9
+      dependence: []
+      type: 10
+      directory: Assets/TextMesh Pro/Fonts
+      tags: []
+      usage:
+      - Assets/Art/Game/Prefabs/UI/Battle.prefab
+      - Assets/Art/Game/Prefabs/UI/Main.prefab
+      record: 1
+      guid: e3265ab4bf004d28a9537516768c1c75
+      in_pkgs:
+      - project
+    - path: Assets/AOT/Scripts/Unity-Logs-Viewer/Images/error_icon.png
+      name: error_icon.png
+      length: 4096
+      hash: f6ff33dca85f559af8925be3b20b5d59
+      dependence: []
+      type: 4
+      directory: Assets/AOT/Scripts/Unity-Logs-Viewer/Images
+      tags: []
+      usage:
+      - Assets/Art/GamePlay/Prefabs/HealthBar.prefab
+      - Assets/Art/Shaders/GpuSlider/HealthBar.mat
+      record: 1
+      guid: 7640ebf8b3a92124d821d3b4b8b3fd7e
+      in_pkgs:
+      - project
+    - path: Assets/Shaders/GpuSlider/HealthBar.shader
+      name: HealthBar.shader
+      length: 3562
+      hash: d4d5eba50413a53543115b23de7f2105
+      dependence: []
+      type: 21
+      directory: Assets/Shaders/GpuSlider
+      tags: []
+      usage:
+      - Assets/Art/GamePlay/Prefabs/HealthBar.prefab
+      record: 1
+      guid: 
+      in_pkgs:
+      - project
+    - path: Assets/Shaders/GpuSlider/HealthBar.mat
+      name: HealthBar.mat
+      length: 1068
+      hash: eb2099def05c9968420dfbe65303f543
+      dependence: []
+      type: 7
+      directory: Assets/Shaders/GpuSlider
+      tags: []
+      usage:
+      - Assets/Art/GamePlay/Prefabs/HealthBar.prefab
+      record: 1
+      guid: 
+      in_pkgs:
+      - project
+  viewAllAssets: 0
+  exports:
+  - pkgName: project
+    encrypt: WooAsset.NoneAssetStreamEncrypt
+    version: 2026_07_28_12_20_47
+    compress: LZ4
+    typeTreeOption: 1
+    pkg:
+      name: project
+      tags: []
+    manifest:
+      version: 
+      assets: []
+      bundles: []
+    bundles: []
+    tree:
+      assets:
+      - path: Assets/Art
+        name: Art
+        length: 57215046
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets
+        tags: []
+        usage: []
+        record: 1
+        guid: a1148991c3d65ee42b662949ab51c68e
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs
+        name: Configs
+        length: 5427
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art
+        tags: []
+        usage: []
+        record: 1
+        guid: e41f38562679d424eb5900bfcfcd53e3
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/Localization Data.asset
+        name: Localization Data.asset
+        length: 3370
+        hash: a99239bdeda21dc5f668bfa6a2dd610a
+        dependence: []
+        type: 14
+        directory: Assets/Art/Configs
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/GGame.prefab
+        record: 1
+        guid: f75869778a6f68b41bcf73c3564c8dd6
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/New UI Layer Data.asset
+        name: New UI Layer Data.asset
+        length: 510
+        hash: 31c527494d87a611d117ec0d1d349fda
+        dependence: []
+        type: 14
+        directory: Assets/Art/Configs
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/GGame.prefab
+        record: 1
+        guid: 60056a483262de14795c2cb09e3765c4
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/role_tbrole.bytes
+        name: role_tbrole.bytes
+        length: 80
+        hash: 1dc9cc31748520def1efb33a51c7cc12
+        dependence: []
+        type: 15
+        directory: Assets/Art/Configs
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: 6ab48f8627ccbf14591a18f4f7a1e977
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/tbcarddata.bytes
+        name: tbcarddata.bytes
+        length: 22
+        hash: 12589adc58a7c647bbf120fcfa3ee7a8
+        dependence: []
+        type: 15
+        directory: Assets/Art/Configs
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: 4b9d844a87d739a429305a46d6b881f8
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/tbglobaldata.bytes
+        name: tbglobaldata.bytes
+        length: 17
+        hash: dbeb567f60ada44a2b4f136f24f55933
+        dependence: []
+        type: 15
+        directory: Assets/Art/Configs
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: c66f5975794cd294a8b482983561b013
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/tbitemdata.bytes
+        name: tbitemdata.bytes
+        length: 23
+        hash: a2bcb1102639b31e3957ca4ae816083c
+        dependence: []
+        type: 15
+        directory: Assets/Art/Configs
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: b52521b3252aad249a907e4bf05bd259
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/tbleveldata.bytes
+        name: tbleveldata.bytes
+        length: 62
+        hash: b1bd8d4f33eb6b3d971de5fa1d663632
+        dependence: []
+        type: 15
+        directory: Assets/Art/Configs
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: 25db1a9d864961e40a265a186fe52290
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/tbplayerproperty.bytes
+        name: tbplayerproperty.bytes
+        length: 7
+        hash: d7bb3c8071928dbcab0e706c91821fbf
+        dependence: []
+        type: 15
+        directory: Assets/Art/Configs
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: f72d18666fa8cac4d93b7b5384d94474
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/tbrolelev.bytes
+        name: tbrolelev.bytes
+        length: 10
+        hash: 5c0662e08476dc26a1bcd78172ef91ff
+        dependence: []
+        type: 15
+        directory: Assets/Art/Configs
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: 2eec51e6be11ca84f8251f0b175aca9f
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/tbsounddata.bytes
+        name: tbsounddata.bytes
+        length: 383
+        hash: 88472e97e29ab3e98e0ec9f53cefc047
+        dependence: []
+        type: 15
+        directory: Assets/Art/Configs
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: e9785744dcaecda4f84da135fe7e9007
+        in_pkgs:
+        - project
+      - path: Assets/Art/Configs/UICollect.json
+        name: UICollect.json
+        length: 943
+        hash: ecd3e82362c58d8ab8769198e0f77cd8
+        dependence: []
+        type: 15
+        directory: Assets/Art/Configs
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: 0edda7d88e7485b47bfd4c3dedeeea8c
+        in_pkgs:
+        - project
+      - path: Assets/Art/Font
+        name: Font
+        length: 43242361
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art
+        tags: []
+        usage: []
+        record: 1
+        guid: b43a927081f84884ab8d71d3ecf727d1
+        in_pkgs:
+        - project
+      - path: Assets/Art/Font/jiangchengheiti baise.mat
+        name: jiangchengheiti baise.mat
+        length: 3148
+        hash: 093ef97091dc71bf7ee7ef7a2402d2ac
+        dependence:
+        - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        - Assets/Art/Font/jiangchengheiti.asset
+        - Assets/Art/Font/jiangchengheiti.ttf
+        type: 7
+        directory: Assets/Art/Font
+        tags: []
+        usage: []
+        record: 1
+        guid: 277d0922113e4114fab1d7b8721f1c72
+        in_pkgs:
+        - project
+      - path: Assets/Art/Font/jiangchengheiti heise_chu.mat
+        name: jiangchengheiti heise_chu.mat
+        length: 3152
+        hash: 9b766d9dbaa4ed7cfacd72a70495e335
+        dependence:
+        - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        - Assets/Art/Font/jiangchengheiti.asset
+        - Assets/Art/Font/jiangchengheiti.ttf
+        type: 7
+        directory: Assets/Art/Font
+        tags: []
+        usage: []
+        record: 1
+        guid: 10de94c089e2860488b49644ec3cc8e5
+        in_pkgs:
+        - project
+      - path: Assets/Art/Font/jiangchengheiti heise_xi.mat
+        name: jiangchengheiti heise_xi.mat
+        length: 3157
+        hash: eee468af65b895378f93c8ea5a46f17b
+        dependence:
+        - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        - Assets/Art/Font/jiangchengheiti.asset
+        - Assets/Art/Font/jiangchengheiti.ttf
+        type: 7
+        directory: Assets/Art/Font
+        tags: []
+        usage: []
+        record: 1
+        guid: 63c0743050d10b0449b507a4a428c8b1
+        in_pkgs:
+        - project
+      - path: Assets/Art/Font/jiangchengheiti lvse.mat
+        name: jiangchengheiti lvse.mat
+        length: 3180
+        hash: 9bd3f7216c1d6114f7a5ef510e93e699
+        dependence:
+        - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        - Assets/Art/Font/jiangchengheiti.asset
+        - Assets/Art/Font/jiangchengheiti.ttf
+        type: 7
+        directory: Assets/Art/Font
+        tags: []
+        usage: []
+        record: 1
+        guid: e6a8968de1686524da1dc9a849f25fba
+        in_pkgs:
+        - project
+      - path: Assets/Art/Font/jiangchengheiti zise.mat
+        name: jiangchengheiti zise.mat
+        length: 3174
+        hash: 9a907d3770b211f35cd56d78152543bb
+        dependence:
+        - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        - Assets/Art/Font/jiangchengheiti.asset
+        - Assets/Art/Font/jiangchengheiti.ttf
+        type: 7
+        directory: Assets/Art/Font
+        tags: []
+        usage: []
+        record: 1
+        guid: 46e1a4fef2df041418e10ab1cb40a348
+        in_pkgs:
+        - project
+      - path: Assets/Art/Font/jiangchengheiti.asset
+        name: jiangchengheiti.asset
+        length: 34075986
+        hash: 2aa675b500ee9ff28902febb01e25d97
+        dependence:
+        - Assets/Art/Font/jiangchengheiti.ttf
+        - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        type: 14
+        directory: Assets/Art/Font
+        tags: []
+        usage:
+        - Assets/Art/Font/jiangchengheiti baise.mat
+        - Assets/Art/Font/jiangchengheiti heise_chu.mat
+        - Assets/Art/Font/jiangchengheiti heise_xi.mat
+        - Assets/Art/Font/jiangchengheiti lvse.mat
+        - Assets/Art/Font/jiangchengheiti zise.mat
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        - Assets/Art/Game/Prefabs/UI/Login.prefab
+        - Assets/Art/Game/Prefabs/UI/Tip.prefab
+        record: 1
+        guid: 71c4eb3b3936ecb4d89b22c275a82bd5
+        in_pkgs:
+        - project
+      - path: Assets/Art/Font/jiangchengheiti.ttf
+        name: jiangchengheiti.ttf
+        length: 9150564
+        hash: f38f60df29910e46823a1d832043a57a
+        dependence: []
+        type: 10
+        directory: Assets/Art/Font
+        tags: []
+        usage:
+        - Assets/Art/Font/jiangchengheiti baise.mat
+        - Assets/Art/Font/jiangchengheiti heise_chu.mat
+        - Assets/Art/Font/jiangchengheiti heise_xi.mat
+        - Assets/Art/Font/jiangchengheiti lvse.mat
+        - Assets/Art/Font/jiangchengheiti zise.mat
+        - Assets/Art/Font/jiangchengheiti.asset
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        - Assets/Art/Game/Prefabs/UI/Login.prefab
+        - Assets/Art/Game/Prefabs/UI/Tip.prefab
+        record: 1
+        guid: 94c1bf0851da8b54a8c8a78c762bf42e
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game
+        name: Game
+        length: 13762393
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art
+        tags: []
+        usage: []
+        record: 1
+        guid: 869cf7dd7cb104946959fbc1d5db7a9e
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Audio
+        name: Audio
+        length: 5251299
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/Game
+        tags: []
+        usage: []
+        record: 1
+        guid: 56dc912bfd5797040ad562777fec77a6
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Audio/\u53D1\u5C04.wav"
+        name: "\u53D1\u5C04.wav"
+        length: 2348
+        hash: 21d1fa6931c7f3cd705ed9c63a0367c6
+        dependence: []
+        type: 20
+        directory: Assets/Art/Game/Audio
+        tags: []
+        usage: []
+        record: 1
+        guid: f5983154b54769f4c9e9bb7cde57ce6a
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Audio/\u5546\u5E97\u80CC\u666F.mp3"
+        name: "\u5546\u5E97\u80CC\u666F.mp3"
+        length: 2847391
+        hash: 53ab6686d2de253d11936e3b751edd7e
+        dependence: []
+        type: 20
+        directory: Assets/Art/Game/Audio
+        tags: []
+        usage: []
+        record: 1
+        guid: 6913212d9fc6a9e4bb8be950e935ec94
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Audio/\u5931\u8D25.mp3"
+        name: "\u5931\u8D25.mp3"
+        length: 32436
+        hash: d307e5448633509a1f0fe624874639a8
+        dependence: []
+        type: 20
+        directory: Assets/Art/Game/Audio
+        tags: []
+        usage: []
+        record: 1
+        guid: 8c0d0d7f99c6aa147af44629d1e9e18c
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Audio/\u67F1\u5B50\u78B0\u649E.mp3"
+        name: "\u67F1\u5B50\u78B0\u649E.mp3"
+        length: 44974
+        hash: 1c3792ea13c41be29741428fa56c4d01
+        dependence: []
+        type: 20
+        directory: Assets/Art/Game/Audio
+        tags: []
+        usage: []
+        record: 1
+        guid: 12725d1c1c2832f40b4bb27fc6b90927
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Audio/\u83B7\u5F97\u5956\u52B1.mp3"
+        name: "\u83B7\u5F97\u5956\u52B1.mp3"
+        length: 128566
+        hash: 9ffac7bbe4d9eaebb67a292395992ea9
+        dependence: []
+        type: 20
+        directory: Assets/Art/Game/Audio
+        tags: []
+        usage: []
+        record: 1
+        guid: 2af181347bf52894588d9171fab967aa
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Audio/\u8857\u673Abgm.mp3"
+        name: "\u8857\u673Abgm.mp3"
+        length: 2003113
+        hash: 9dd86b40eca7d592000e3c930993dbe6
+        dependence: []
+        type: 20
+        directory: Assets/Art/Game/Audio
+        tags: []
+        usage: []
+        record: 1
+        guid: 54d46998efe64854b9e23d93485c89c6
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Audio/\u8857\u673A\u4E2D\u5956.mp3"
+        name: "\u8857\u673A\u4E2D\u5956.mp3"
+        length: 122297
+        hash: 702999879b3bf718103b33b8a005ea1a
+        dependence: []
+        type: 20
+        directory: Assets/Art/Game/Audio
+        tags: []
+        usage: []
+        record: 1
+        guid: 6187311eeb3eb5845a0b656b89ceeb60
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Audio/\u8857\u673A\u6309\u94AE.mp3"
+        name: "\u8857\u673A\u6309\u94AE.mp3"
+        length: 12604
+        hash: c78a598f7ea292a51f6d61299bcc5e36
+        dependence: []
+        type: 20
+        directory: Assets/Art/Game/Audio
+        tags: []
+        usage: []
+        record: 1
+        guid: 07c503fd3d8183b40b0bc367e202ab81
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Audio/\u98DE\u5251.mp3"
+        name: "\u98DE\u5251.mp3"
+        length: 57570
+        hash: 4fc46164c0bff79043f1e73a17170006
+        dependence: []
+        type: 20
+        directory: Assets/Art/Game/Audio
+        tags: []
+        usage: []
+        record: 1
+        guid: cb60bfa509e388445ac399318374138c
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Prefabs
+        name: Prefabs
+        length: 114784
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/Game
+        tags: []
+        usage: []
+        record: 1
+        guid: ebdf94491a51b8641becf273db0183f7
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Prefabs/GGame.prefab
+        name: GGame.prefab
+        length: 9896
+        hash: 6e022b52977153d3ca9998e8147b6fab
+        dependence:
+        - Assets/Art/Configs/Localization Data.asset
+        - Assets/Art/GamePlay/Prefabs/GameAssets.prefab
+        - Assets/Art/Configs/New UI Layer Data.asset
+        type: 9
+        directory: Assets/Art/Game/Prefabs
+        tags: []
+        usage: []
+        record: 1
+        guid: 9b068acb5b49f664c81df12d7ffbe3e8
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Prefabs/UI
+        name: UI
+        length: 104888
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/Game/Prefabs
+        tags: []
+        usage: []
+        record: 1
+        guid: 4a38108e9f36abf41a456581f051a087
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Prefabs/UI/Battle.prefab
+        name: Battle.prefab
+        length: 21145
+        hash: bb191279486b63512719835fbaf13e64
+        dependence:
+        - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+        - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+        type: 9
+        directory: Assets/Art/Game/Prefabs/UI
+        tags: []
+        usage: []
+        record: 1
+        guid: c06d9cde7ed13774087783e869749ff2
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        name: LoadScene.prefab
+        length: 18180
+        hash: 05d376ba3d1905a793ede2ca28b714b8
+        dependence:
+        - Assets/Art/Font/jiangchengheiti.asset
+        - Assets/Art/Font/jiangchengheiti.ttf
+        - Assets/Art/Game/Res/Ani/LoadScene/Exit.anim
+        - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+        - Assets/Art/Game/Res/Ani/LoadScene/Show.anim
+        - "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
+        - Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+        - Assets/Art/Game/Res/UI/Login/element_hong.png
+        - Assets/Art/Game/Res/UI/Login/element_lan.png
+        - "Assets/Art/Game/Res/UI/Login/\u7EC4-3.png"
+        type: 9
+        directory: Assets/Art/Game/Prefabs/UI
+        tags: []
+        usage: []
+        record: 1
+        guid: cfac2264ee1a6b14c8d9344c66a04d9e
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Prefabs/UI/Login.prefab
+        name: Login.prefab
+        length: 41091
+        hash: c62c45ee1e484c0fddbbf8666b803803
+        dependence:
+        - Assets/Art/Font/jiangchengheiti.asset
+        - Assets/Art/Font/jiangchengheiti.ttf
+        - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+        - "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
+        type: 9
+        directory: Assets/Art/Game/Prefabs/UI
+        tags: []
+        usage: []
+        record: 1
+        guid: 8ead7fe60fb87b24fb74fc310f4392aa
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Prefabs/UI/Main.prefab
+        name: Main.prefab
+        length: 16043
+        hash: 46e237063606984afddd0ac4dc3c3ca9
+        dependence:
+        - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+        - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+        - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+        type: 9
+        directory: Assets/Art/Game/Prefabs/UI
+        tags: []
+        usage: []
+        record: 1
+        guid: fec98e4dcd95d1a47b5c13a7e18a77d9
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Prefabs/UI/Tip.prefab
+        name: Tip.prefab
+        length: 8429
+        hash: 104f5e4565b6ce73618a91e0ecb46219
+        dependence:
+        - Assets/Art/Font/jiangchengheiti.asset
+        - Assets/Art/Font/jiangchengheiti.ttf
+        - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        type: 9
+        directory: Assets/Art/Game/Prefabs/UI
+        tags: []
+        usage: []
+        record: 1
+        guid: e6c2d773b5a6a574cb74a3bb9111b117
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res
+        name: Res
+        length: 8384011
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/Game
+        tags: []
+        usage: []
+        record: 1
+        guid: ea747a66e0aeb8a4b811c670866aa161
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res/Ani
+        name: Ani
+        length: 34179
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/Game/Res
+        tags: []
+        usage: []
+        record: 1
+        guid: 4d2f662b4f2530d4b83b20f502bdeb4f
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res/Ani/LoadScene
+        name: LoadScene
+        length: 34179
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/Game/Res/Ani
+        tags: []
+        usage: []
+        record: 1
+        guid: 60192a11687cb0945a174f96bf6b6bb2
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+        name: Ani.controller
+        length: 5971
+        hash: 0a784fc1b7607d6d2072e473ed6de364
+        dependence:
+        - Assets/Art/Game/Res/Ani/LoadScene/Exit.anim
+        - Assets/Art/Game/Res/Ani/LoadScene/Show.anim
+        type: 13
+        directory: Assets/Art/Game/Res/Ani/LoadScene
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        record: 1
+        guid: e031626d01727b642ad9fac0f7740880
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res/Ani/LoadScene/Exit.anim
+        name: Exit.anim
+        length: 12106
+        hash: b69176385a9cf314a163f547e2d9256c
+        dependence: []
+        type: 12
+        directory: Assets/Art/Game/Res/Ani/LoadScene
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        - Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+        record: 1
+        guid: 0ba1eefc5df1e1c469ce6c29f5559f8f
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res/Ani/LoadScene/Show.anim
+        name: Show.anim
+        length: 16102
+        hash: b62ae7052a68897c0a984055c9274a08
+        dependence: []
+        type: 12
+        directory: Assets/Art/Game/Res/Ani/LoadScene
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        - Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+        record: 1
+        guid: 0241b041b0135044e91722b6d3de910d
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res/UI
+        name: UI
+        length: 8349832
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/Game/Res
+        tags: []
+        usage: []
+        record: 1
+        guid: bf5161afb1d417a4c9a2346823f59c52
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res/UI/Login
+        name: Login
+        length: 8349832
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/Game/Res/UI
+        tags: []
+        usage: []
+        record: 1
+        guid: 94a56725f55faad4db549900f5db268c
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res/UI/Login/element_hong.png
+        name: element_hong.png
+        length: 1468800
+        hash: 40c1c30b25e6cd368e5e446a74502d42
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        record: 1
+        guid: 057be3172da49f14c8822a8de7921188
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res/UI/Login/element_lan.png
+        name: element_lan.png
+        length: 1471680
+        hash: 5911fce1e7d8346a6ed116451cf10d32
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        record: 1
+        guid: b1beb7db1bc9a3f45be9b8447ae028a0
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Res/UI/Login/icon.png
+        name: icon.png
+        length: 524288
+        hash: 69bb7853aa4ad8db79c5087426fa99b5
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage: []
+        record: 1
+        guid: 86d4d5542b67dcb40bc90a4d92e0365e
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Res/UI/Login/\u5305\u5B50\u76AE\u5DE5\u4F5C\u5BA4\u56FE\u6807.png"
+        name: "\u5305\u5B50\u76AE\u5DE5\u4F5C\u5BA4\u56FE\u6807.png"
+        length: 262144
+        hash: 5d559b216b6c3cc872ea07614fb2d005
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage: []
+        record: 1
+        guid: 9db487dc39cfe164b944c2f8bdafbb46
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Res/UI/Login/\u53D8\u4F53=\u9ED8\u8BA4\u5706\u89D2\u77E9\u5F62,
+          \u989C\u8272=\u6DF1\u9083\u9ED1@2x.png"
+        name: "\u53D8\u4F53=\u9ED8\u8BA4\u5706\u89D2\u77E9\u5F62, \u989C\u8272=\u6DF1\u9083\u9ED1@2x.png"
+        length: 54000
+        hash: 23a6e7283d8b076bf14df1a8fdc0ebbd
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage: []
+        record: 1
+        guid: c2fa14fd55ee6804b94d1a8b9dc2a610
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+        name: "\u56FE\u5C42 25.png"
+        length: 73728
+        hash: 80316a56a07cb72fc3f140c1e83173ef
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        - Assets/Art/Game/Prefabs/UI/Login.prefab
+        - Assets/Art/Game/Prefabs/UI/Main.prefab
+        record: 1
+        guid: c6528388ea24aff4e9afbc3d517626a4
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Res/UI/Login/\u7EC4 3.png"
+        name: "\u7EC4 3.png"
+        length: 7392
+        hash: da9072073f78ae5073696b7a5a9e2b39
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage: []
+        record: 1
+        guid: a29434bd3d4d8834b89eec449b87ed87
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
+        name: "\u7EC4 3\u9053\u5177.png"
+        length: 4071424
+        hash: f0accd57fd058523f49ced2728126445
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        - Assets/Art/Game/Prefabs/UI/Login.prefab
+        record: 1
+        guid: cd8254c79c1e0d44d90694eca7f139a4
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Res/UI/Login/\u7EC4-3.png"
+        name: "\u7EC4-3.png"
+        length: 214656
+        hash: 77d78f464c22c8ae2222716ae7fdbeda
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        record: 1
+        guid: 50c7b50485c042e49a554e0311cb884a
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Res/UI/Login/\u8FDB\u5EA6\u6761 \u62F7\u8D1D.png"
+        name: "\u8FDB\u5EA6\u6761 \u62F7\u8D1D.png"
+        length: 100860
+        hash: 21b328823e889528b52a680fece14327
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage: []
+        record: 1
+        guid: b145675001b136249a0743eff432d9d5
+        in_pkgs:
+        - project
+      - path: "Assets/Art/Game/Res/UI/Login/\u8FDB\u5EA6\u6761 \u62F7\u8D1D1.png"
+        name: "\u8FDB\u5EA6\u6761 \u62F7\u8D1D1.png"
+        length: 100860
+        hash: 58343ef82d71dcc0382b4675caadb1bb
+        dependence: []
+        type: 3
+        directory: Assets/Art/Game/Res/UI/Login
+        tags: []
+        usage: []
+        record: 1
+        guid: 1665c3b861da4f8479a6696acfe16d55
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Scenes
+        name: Scenes
+        length: 9902
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/Game
+        tags: []
+        usage: []
+        record: 1
+        guid: c9912b3c5f7e5c9479b85af5e06a19ec
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Scenes/Login.unity
+        name: Login.unity
+        length: 4956
+        hash: ef428253f6a22174f8c1459247f6ea62
+        dependence: []
+        type: 6
+        directory: Assets/Art/Game/Scenes
+        tags: []
+        usage: []
+        record: 1
+        guid: c4e2b7130a9c8c445ab9b6b20e521c30
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/Scenes/Main.unity
+        name: Main.unity
+        length: 4946
+        hash: dc2c03ef95963d79a53da3e8ad55c9b6
+        dependence: []
+        type: 6
+        directory: Assets/Art/Game/Scenes
+        tags: []
+        usage: []
+        record: 1
+        guid: 1b0642826c3fd35448b5705a025ef87d
+        in_pkgs:
+        - project
+      - path: Assets/Art/Game/shadervariants.shadervariants
+        name: shadervariants.shadervariants
+        length: 2397
+        hash: de6ef94debf39bc2c1dd87bbb319229b
+        dependence:
+        - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+        type: 22
+        directory: Assets/Art/Game
+        tags: []
+        usage: []
+        record: 1
+        guid: 5be5a471fbfbf5c44873dc241469731a
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay
+        name: GamePlay
+        length: 198156
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art
+        tags: []
+        usage: []
+        record: 1
+        guid: 4bece1d348dc76b4b97b6eeea84009c7
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/AbilityAsset.txt
+        name: AbilityAsset.txt
+        length: 1523
+        hash: afc81aea23b0eabd3f466eebc6ea16c0
+        dependence: []
+        type: 15
+        directory: Assets/Art/GamePlay
+        tags: []
+        usage: []
+        record: 1
+        guid: e1a79d3bb9d579641875c9b8f53c2391
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/ActorModifyAsset.txt
+        name: ActorModifyAsset.txt
+        length: 1423
+        hash: 06c8111588e0b55ce7d7529dcc08b913
+        dependence: []
+        type: 15
+        directory: Assets/Art/GamePlay
+        tags: []
+        usage: []
+        record: 1
+        guid: b434718f970180346b95a2a1a44940e4
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/BT
+        name: BT
+        length: 9955
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/GamePlay
+        tags: []
+        usage: []
+        record: 1
+        guid: b69c27525ef222e49afb14ed4c8b4b41
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/BT/1_1.graph.bytes
+        name: 1_1.graph.bytes
+        length: 9955
+        hash: 36e4fb72ecde38bdef0d4ef77858e9e8
+        dependence: []
+        type: 15
+        directory: Assets/Art/GamePlay/BT
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: 919d3935449179d4d8ddf2b01b04a7cb
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/BuffAsset.txt
+        name: BuffAsset.txt
+        length: 1625
+        hash: 08080373b7967b40705f58c2a2fdec08
+        dependence: []
+        type: 15
+        directory: Assets/Art/GamePlay
+        tags: []
+        usage: []
+        record: 1
+        guid: ce8c525a0f9a0ac47a1c28b39f25f6e4
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Prefabs
+        name: Prefabs
+        length: 10911
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/GamePlay
+        tags: []
+        usage: []
+        record: 1
+        guid: 6adb248069411c747b1e3b88fbfcfd1f
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Prefabs/GameAssets.prefab
+        name: GameAssets.prefab
+        length: 1666
+        hash: 889ec764b563079c81ab1d3f051040a5
+        dependence: []
+        type: 9
+        directory: Assets/Art/GamePlay/Prefabs
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/GGame.prefab
+        record: 1
+        guid: 15041ab3fa5ee9442bc3d98460610a28
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Prefabs/HealthBar.prefab
+        name: HealthBar.prefab
+        length: 2972
+        hash: 2a5bc28dd5758d188f3c5ad138dd991b
+        dependence:
+        - Assets/AOT/Scripts/Unity-Logs-Viewer/Images/error_icon.png
+        - Assets/Shaders/GpuSlider/HealthBar.shader
+        - Assets/Shaders/GpuSlider/HealthBar.mat
+        type: 9
+        directory: Assets/Art/GamePlay/Prefabs
+        tags: []
+        usage: []
+        record: 1
+        guid: 68cae91f92ba25a46a225c3ffff83075
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Prefabs/House.prefab
+        name: House.prefab
+        length: 3826
+        hash: d77d1612c922790b050c1170e5de5521
+        dependence: []
+        type: 9
+        directory: Assets/Art/GamePlay/Prefabs
+        tags: []
+        usage: []
+        record: 1
+        guid: 409d3d8e097383a43becf748059b8841
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Prefabs/Role.prefab
+        name: Role.prefab
+        length: 2447
+        hash: 1002195eeda6bc7f3fc5ac0020c53b91
+        dependence: []
+        type: 9
+        directory: Assets/Art/GamePlay/Prefabs
+        tags: []
+        usage: []
+        record: 1
+        guid: 71a398da971b11747bf8a30cd45de58f
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Role
+        name: Role
+        length: 2444
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/GamePlay
+        tags: []
+        usage: []
+        record: 1
+        guid: 3820ea8c696c5c246be3f8072522ae03
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Role/0.prefab
+        name: 0.prefab
+        length: 2444
+        hash: 92063f7f8e0f09aba156648440232e29
+        dependence: []
+        type: 9
+        directory: Assets/Art/GamePlay/Role
+        tags: []
+        usage: []
+        record: 1
+        guid: a8161718edce03842bcd9bf2ecaee1a2
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Scene
+        name: Scene
+        length: 169202
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/GamePlay
+        tags: []
+        usage: []
+        record: 1
+        guid: 5c77c9e62bf41354d95878b316ef224c
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Scene/0
+        name: 0
+        length: 149464
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/GamePlay/Scene
+        tags: []
+        usage: []
+        record: 1
+        guid: c140aa2db1c3cf1468fd35db4b94dc43
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Scene/0/LightingData.asset
+        name: LightingData.asset
+        length: 18232
+        hash: 1ff37f63558753e354e80cf96f0e1cb7
+        dependence:
+        - Assets/Art/GamePlay/Scene/0.unity
+        - Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
+        type: 24
+        directory: Assets/Art/GamePlay/Scene/0
+        tags: []
+        usage:
+        - Assets/Art/GamePlay/Scene/0.unity
+        record: 1
+        guid: bd5230512906d9f4a9d70a0a1fcc886d
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
+        name: ReflectionProbe-0.exr
+        length: 131232
+        hash: fd5f55643c68f6a4c844406ee7f5a391
+        dependence: []
+        type: 4
+        directory: Assets/Art/GamePlay/Scene/0
+        tags: []
+        usage:
+        - Assets/Art/GamePlay/Scene/0/LightingData.asset
+        - Assets/Art/GamePlay/Scene/0.unity
+        record: 1
+        guid: 3054678d923b68346aea04c3b7114fee
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Scene/0.unity
+        name: 0.unity
+        length: 18465
+        hash: 584ab6f8136183906541e402a9fce900
+        dependence:
+        - Assets/Art/GamePlay/Scene/0/LightingData.asset
+        - Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
+        type: 6
+        directory: Assets/Art/GamePlay/Scene
+        tags: []
+        usage:
+        - Assets/Art/GamePlay/Scene/0/LightingData.asset
+        record: 1
+        guid: e4c42db2b14342b40a49ef16c7d97cb6
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Scene/plane.mat
+        name: plane.mat
+        length: 1273
+        hash: 7a07d3222c2abf0401953a49fcc5708b
+        dependence: []
+        type: 7
+        directory: Assets/Art/GamePlay/Scene
+        tags: []
+        usage: []
+        record: 1
+        guid: 1748f79a550ed4b438c9ce37dabc9879
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Skill
+        name: Skill
+        length: 1073
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/GamePlay
+        tags: []
+        usage: []
+        record: 1
+        guid: 2627d65dcbaa2ab4b8b0f92ce7c43804
+        in_pkgs:
+        - project
+      - path: Assets/Art/GamePlay/Skill/1.graph.bytes
+        name: 1.graph.bytes
+        length: 1073
+        hash: 38759a4db17b84a2fe4918d7328292e4
+        dependence: []
+        type: 15
+        directory: Assets/Art/GamePlay/Skill
+        tags:
+        - Config
+        usage: []
+        record: 1
+        guid: 61665d1d623fa1a4a8010c376d6bd807
+        in_pkgs:
+        - project
+      - path: Assets/Art/Shaders
+        name: Shaders
+        length: 6709
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art
+        tags: []
+        usage: []
+        record: 1
+        guid: 1fb9ec6415db29a4da787a4b5aaf2c87
+        in_pkgs:
+        - project
+      - path: Assets/Art/Shaders/Custom2DGrayWithSwitch.shader
+        name: Custom2DGrayWithSwitch.shader
+        length: 2042
+        hash: 3bee70f40c631de25c5914bc4fdccfe3
+        dependence: []
+        type: 21
+        directory: Assets/Art/Shaders
+        tags: []
+        usage: []
+        record: 1
+        guid: a653abbbbec4fe94a8ed86f3d226a49f
+        in_pkgs:
+        - project
+      - path: Assets/Art/Shaders/GpuSlider
+        name: GpuSlider
+        length: 4667
+        hash: 
+        dependence: []
+        type: 2
+        directory: Assets/Art/Shaders
+        tags: []
+        usage: []
+        record: 1
+        guid: 60302e0ddcdd7c54999e23ff743ad867
+        in_pkgs:
+        - project
+      - path: Assets/Art/Shaders/GpuSlider/HealthBar.mat
+        name: HealthBar.mat
+        length: 1105
+        hash: 38c6882fc96c9277667e7a262c03fe60
+        dependence:
+        - Assets/AOT/Scripts/Unity-Logs-Viewer/Images/error_icon.png
+        - Assets/Art/Shaders/GpuSlider/HealthBar.shader
+        type: 7
+        directory: Assets/Art/Shaders/GpuSlider
+        tags: []
+        usage: []
+        record: 1
+        guid: 298ef91d7da9112468a8380199ec5944
+        in_pkgs:
+        - project
+      - path: Assets/Art/Shaders/GpuSlider/HealthBar.shader
+        name: HealthBar.shader
+        length: 3562
+        hash: d4d5eba50413a53543115b23de7f2105
+        dependence: []
+        type: 21
+        directory: Assets/Art/Shaders/GpuSlider
+        tags: []
+        usage:
+        - Assets/Art/Shaders/GpuSlider/HealthBar.mat
+        record: 1
+        guid: 5fb47381e1d182e44a4bb196e53c4946
+        in_pkgs:
+        - project
+      - path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+        name: TMP_SDF.shader
+        length: 10917
+        hash: 67dc07dbe5e8742f7e7b234617303e97
+        dependence: []
+        type: 21
+        directory: Assets/TextMesh Pro/Shaders
+        tags: []
+        usage:
+        - Assets/Art/Font/jiangchengheiti baise.mat
+        - Assets/Art/Font/jiangchengheiti heise_chu.mat
+        - Assets/Art/Font/jiangchengheiti heise_xi.mat
+        - Assets/Art/Font/jiangchengheiti lvse.mat
+        - Assets/Art/Font/jiangchengheiti zise.mat
+        - Assets/Art/Font/jiangchengheiti.asset
+        - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+        - Assets/Art/Game/Prefabs/UI/Login.prefab
+        - Assets/Art/Game/Prefabs/UI/Tip.prefab
+        - Assets/Art/Game/shadervariants.shadervariants
+        record: 1
+        guid: 68e6db2ebdc24f95958faec2be5558d6
+        in_pkgs:
+        - project
+      - path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+        name: TMP_SDF-Mobile.shader
+        length: 7914
+        hash: d236bb724260067379b11736bb8c6e91
+        dependence: []
+        type: 21
+        directory: Assets/TextMesh Pro/Shaders
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/UI/Battle.prefab
+        - Assets/Art/Game/Prefabs/UI/Main.prefab
+        - Assets/Art/Game/shadervariants.shadervariants
+        record: 1
+        guid: fe393ace9b354375a9cb14cdbbc28be4
+        in_pkgs:
+        - project
+      - path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+        name: LiberationSans.ttf
+        length: 350200
+        hash: bbbd0bdbfba093dec2ee4ca8b62e61f9
+        dependence: []
+        type: 10
+        directory: Assets/TextMesh Pro/Fonts
+        tags: []
+        usage:
+        - Assets/Art/Game/Prefabs/UI/Battle.prefab
+        - Assets/Art/Game/Prefabs/UI/Main.prefab
+        record: 1
+        guid: e3265ab4bf004d28a9537516768c1c75
+        in_pkgs:
+        - project
+      - path: Assets/AOT/Scripts/Unity-Logs-Viewer/Images/error_icon.png
+        name: error_icon.png
+        length: 4096
+        hash: f6ff33dca85f559af8925be3b20b5d59
+        dependence: []
+        type: 4
+        directory: Assets/AOT/Scripts/Unity-Logs-Viewer/Images
+        tags: []
+        usage:
+        - Assets/Art/GamePlay/Prefabs/HealthBar.prefab
+        - Assets/Art/Shaders/GpuSlider/HealthBar.mat
+        record: 1
+        guid: 7640ebf8b3a92124d821d3b4b8b3fd7e
+        in_pkgs:
+        - project
+      - path: Assets/Shaders/GpuSlider/HealthBar.shader
+        name: HealthBar.shader
+        length: 3562
+        hash: d4d5eba50413a53543115b23de7f2105
+        dependence: []
+        type: 21
+        directory: Assets/Shaders/GpuSlider
+        tags: []
+        usage:
+        - Assets/Art/GamePlay/Prefabs/HealthBar.prefab
+        record: 1
+        guid: 
+        in_pkgs:
+        - project
+      - path: Assets/Shaders/GpuSlider/HealthBar.mat
+        name: HealthBar.mat
+        length: 1068
+        hash: eb2099def05c9968420dfbe65303f543
+        dependence: []
+        type: 7
+        directory: Assets/Shaders/GpuSlider
+        tags: []
+        usage:
+        - Assets/Art/GamePlay/Prefabs/HealthBar.prefab
+        record: 1
+        guid: 
+        in_pkgs:
+        - project
+  manifest:
+    version: 
+    assets: []
+    bundles: []
+  cachedAssets:
+  - path: Assets/Project/Prefabs/GGame.prefab
+    _PreviewSize: 9737
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Project/Configs/UICollect.json
+    _PreviewSize: 905
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Data/tbcarddata.bytes
+    _PreviewSize: 11
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Data/tbglobaldata.bytes
+    _PreviewSize: 5
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Data/tbleveldata.bytes
+    _PreviewSize: 34
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Data/tbsounddata.bytes
+    _PreviewSize: 383
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Project_GP/BT/25.graph.bytes
+    _PreviewSize: 1314
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Project_GP/Skill/1.graph.bytes
+    _PreviewSize: 11837
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Project/Prefabs/UI/Tip.prefab
+    _PreviewSize: 8429
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Project/Scenes/Login.unity
+    _PreviewSize: 4956
+    _InstanceID: 0
+    _type: UnityEditor.SceneAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Project/Prefabs/UI/Login.prefab
+    _PreviewSize: 14639
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Project/Scenes/Main.unity
+    _PreviewSize: 4946
+    _InstanceID: 0
+    _type: UnityEditor.SceneAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Project/Prefabs/UI/Main.prefab
+    _PreviewSize: 16043
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Project_GP/Scene/0.unity
+    _PreviewSize: 15273
+    _InstanceID: 0
+    _type: UnityEditor.SceneAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Project/Prefabs/UI/LoadScene.prefab
+    _PreviewSize: 17579
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Configs/UICollect.json
+    _PreviewSize: 943
+    _InstanceID: 25498
+    _type: UnityEngine.TextAsset
+    _hash: ecd3e82362c58d8ab8769198e0f77cd8
+    _dp_hash: b33c280434be23631d259b07d0eb06c3
+    _dps:
+    - Assets/Art/Game/Configs/UICollect.json
+  - path: Assets/Excel/Data/role_tbrole.bytes
+    _PreviewSize: 1
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Data/role_tbroleproperty.bytes
+    _PreviewSize: 35
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Data/tbplayerproperty.bytes
+    _PreviewSize: 13
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Data/tbrolelev.bytes
+    _PreviewSize: 1
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+    _PreviewSize: 18180
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 05d376ba3d1905a793ede2ca28b714b8
+    _dp_hash: 526c43af8f25eb489297314d618c1225
+    _dps:
+    - Assets/Art/Font/jiangchengheiti.asset
+    - Assets/Art/Font/jiangchengheiti.ttf
+    - Assets/Art/Game/Res/Ani/LoadScene/Exit.anim
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+    - Assets/Art/Game/Res/Ani/LoadScene/Show.anim
+    - "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component
+      Icon.psd
+    - Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+    - Assets/Art/Game/Prefabs/UI/LoadScene.prefab
+    - Assets/Art/Game/Res/UI/Login/element_hong.png
+    - Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+    - Assets/Art/Game/Res/UI/Login/element_lan.png
+    - Packages/com.woo.iframework/Runtime/UI/UIPanel.cs
+    - "Assets/Art/Game/Res/UI/Login/\u7EC4-3.png"
+  - path: Assets/Art/Game/Prefabs/UI/Tip.prefab
+    _PreviewSize: 8429
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 104f5e4565b6ce73618a91e0ecb46219
+    _dp_hash: f883617d272912650d962cbe2a953a8f
+    _dps:
+    - Assets/Art/Font/jiangchengheiti.asset
+    - Assets/Art/Font/jiangchengheiti.ttf
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/Art/Game/Prefabs/UI/Tip.prefab
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component
+      Icon.psd
+    - Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+    - Packages/com.woo.iframework/Runtime/UI/UIPanel.cs
+  - path: Assets/Art/Game/Scenes/Login.unity
+    _PreviewSize: 4956
+    _InstanceID: 0
+    _type: UnityEditor.SceneAsset
+    _hash: ef428253f6a22174f8c1459247f6ea62
+    _dp_hash: 89252dba5908f06692509207d8cd2a39
+    _dps:
+    - Assets/Art/Game/Scenes/Login.unity
+    - Assets/Scripts/Game/Scene/LoginScene.cs
+  - path: Assets/Art/Game/Scenes/Main.unity
+    _PreviewSize: 4946
+    _InstanceID: 0
+    _type: UnityEditor.SceneAsset
+    _hash: dc2c03ef95963d79a53da3e8ad55c9b6
+    _dp_hash: 0ad1bda2ab898598e3d62c6887a7aad0
+    _dps:
+    - Assets/Art/Game/Scenes/Main.unity
+    - Assets/Scripts/Game/Scene/MainScene.cs
+  - path: Assets/Art/Game/Prefabs/UI/Main.prefab
+    _PreviewSize: 16043
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 46e237063606984afddd0ac4dc3c3ca9
+    _dp_hash: 143e0fc9af0ed17b7116345725238065
+    _dps:
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component
+      Icon.psd
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+    - Assets/Art/Game/Prefabs/UI/Main.prefab
+    - Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+    - Packages/com.woo.iframework/Runtime/UI/UIPanel.cs
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - path: Assets/Art/GamePlay/Scene/0.unity
+    _PreviewSize: 18465
+    _InstanceID: 0
+    _type: UnityEditor.SceneAsset
+    _hash: 584ab6f8136183906541e402a9fce900
+    _dp_hash: 9b7a34e6fe6c1841dd47bd71c52214ce
+    _dps:
+    - Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalCameraData.cs
+    - Assets/Art/GamePlay/Scene/0/LightingData.asset
+    - Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+    - Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalLightData.cs
+    - Assets/Art/GamePlay/Scene/0.unity
+    - Assets/Scripts/GamePlay/View/GamePlayScene.cs
+    - Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
+  - path: Assets/Art/Game/Prefabs/UI/Battle.prefab
+    _PreviewSize: 21145
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: bb191279486b63512719835fbaf13e64
+    _dp_hash: 2e768d7051128db2242d3c950d92fa2d
+    _dps:
+    - Assets/Scripts/Game/UI/Battle/CardList.cs
+    - Assets/Scripts/Game/UI/Battle/CardListPutPad.cs
+    - Packages/com.woo.iframework/Runtime/UI/Tool/Empty4Raycast.cs
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component
+      Icon.psd
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+    - Assets/Scripts/Game/UI/Battle/Card.cs
+    - Assets/Art/Game/Prefabs/UI/Battle.prefab
+    - Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+    - Packages/com.woo.iframework/Runtime/UI/UIPanel.cs
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - path: Assets/Art/GamePlay/Prefabs/HealthBar.prefab
+    _PreviewSize: 2972
+    _InstanceID: 25418
+    _type: UnityEngine.GameObject
+    _hash: 2a5bc28dd5758d188f3c5ad138dd991b
+    _dp_hash: aef187474af01f1bc6f5059be4d475c7
+    _dps:
+    - Assets/Art/GamePlay/Prefabs/HealthBar.prefab
+    - Assets/AOT/Scripts/Unity-Logs-Viewer/Images/error_icon.png
+    - Packages/com.woo.iframework/Runtime/UI/ScriptCreatorContext.cs
+    - Assets/Shaders/GpuSlider/HealthBar.shader
+    - Assets/Shaders/GpuSlider/HealthBar.mat
+  - path: Assets/Excel/Data/tbitemdata.bytes
+    _PreviewSize: 22
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Data/role_tbrole.bytes
+    _PreviewSize: 37
+    _InstanceID: 8798
+    _type: UnityEngine.TextAsset
+    _hash: a9d66e466a73fbf5c393763219c44e3b
+    _dp_hash: 9a4d1961282703f50c1b81a107a22126
+    _dps:
+    - Assets/Excel/Runtime/Data/role_tbrole.bytes
+  - path: Assets/Excel/Runtime/Data/tbcarddata.bytes
+    _PreviewSize: 22
+    _InstanceID: 8788
+    _type: UnityEngine.TextAsset
+    _hash: 12589adc58a7c647bbf120fcfa3ee7a8
+    _dp_hash: 12dc8d2d660252241e180107b358f172
+    _dps:
+    - Assets/Excel/Runtime/Data/tbcarddata.bytes
+  - path: Assets/Excel/Runtime/Data/tbglobaldata.bytes
+    _PreviewSize: 14
+    _InstanceID: 8784
+    _type: UnityEngine.TextAsset
+    _hash: c2a638ba5f810493dd940dcd7a0a16fb
+    _dp_hash: 49d89e2250068e9fb1fe254c65b305ba
+    _dps:
+    - Assets/Excel/Runtime/Data/tbglobaldata.bytes
+  - path: Assets/Excel/Runtime/Data/tbitemdata.bytes
+    _PreviewSize: 22
+    _InstanceID: 8790
+    _type: UnityEngine.TextAsset
+    _hash: a2bcb1102639b31e3957ca4ae816083c
+    _dp_hash: cf8a94aa0f59bea92ae48d7a40baf52a
+    _dps:
+    - Assets/Excel/Runtime/Data/tbitemdata.bytes
+  - path: Assets/Excel/Runtime/Data/tbleveldata.bytes
+    _PreviewSize: 62
+    _InstanceID: 8792
+    _type: UnityEngine.TextAsset
+    _hash: b1bd8d4f33eb6b3d971de5fa1d663632
+    _dp_hash: 2c873d4a76e6dee7dd3c4e620ef28fa3
+    _dps:
+    - Assets/Excel/Runtime/Data/tbleveldata.bytes
+  - path: Assets/Excel/Runtime/Data/tbplayerproperty.bytes
+    _PreviewSize: 13
+    _InstanceID: 8794
+    _type: UnityEngine.TextAsset
+    _hash: 82297c29bebce3a18df4caf30c8984f7
+    _dp_hash: 720cb3fbf1ba5859078ab777030ac58d
+    _dps:
+    - Assets/Excel/Runtime/Data/tbplayerproperty.bytes
+  - path: Assets/Excel/Runtime/Data/tbrolelev.bytes
+    _PreviewSize: 19
+    _InstanceID: 8786
+    _type: UnityEngine.TextAsset
+    _hash: 28bacf9ffa6d26fe53cc1c9728e21699
+    _dp_hash: 2e7d4086fdf62846d3a3fd6b8c93629d
+    _dps:
+    - Assets/Excel/Runtime/Data/tbrolelev.bytes
+  - path: Assets/Excel/Runtime/Data/tbsounddata.bytes
+    _PreviewSize: 383
+    _InstanceID: 8796
+    _type: UnityEngine.TextAsset
+    _hash: 88472e97e29ab3e98e0ec9f53cefc047
+    _dp_hash: 491d4fb900901adeb4d81ef4c98d2e76
+    _dps:
+    - Assets/Excel/Runtime/Data/tbsounddata.bytes
+  - path: Assets/Excel/Runtime/Gen/CardData.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/CardHandSkill.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/CardType.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/GlobalData.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/ItemData.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/ItemType.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/LevelData.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/PlayerProperty.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/Reward.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/Role.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/RoleLev.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/RoleProperty.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/SoundChannel.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/SoundData.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/Tables.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/TbCardData.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/TbGlobalData.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/TbItemData.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/TbLevelData.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/TbPlayerProperty.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/TbRole.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/TbRoleLev.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/TbSoundData.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel/Runtime/Gen/v3.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: "Assets/Art/Game/Audio/\u53D1\u5C04.wav"
+    _PreviewSize: 2348
+    _InstanceID: 0
+    _type: UnityEngine.AudioClip
+    _hash: 21d1fa6931c7f3cd705ed9c63a0367c6
+    _dp_hash: 9a45859b0e4201a80efc734142211f06
+    _dps:
+    - "Assets/Art/Game/Audio/\u53D1\u5C04.wav"
+  - path: "Assets/Art/Game/Audio/\u5546\u5E97\u80CC\u666F.mp3"
+    _PreviewSize: 2847391
+    _InstanceID: 0
+    _type: UnityEngine.AudioClip
+    _hash: 53ab6686d2de253d11936e3b751edd7e
+    _dp_hash: b346de817f489bd3d987935885911115
+    _dps:
+    - "Assets/Art/Game/Audio/\u5546\u5E97\u80CC\u666F.mp3"
+  - path: "Assets/Art/Game/Audio/\u5931\u8D25.mp3"
+    _PreviewSize: 32436
+    _InstanceID: 0
+    _type: UnityEngine.AudioClip
+    _hash: d307e5448633509a1f0fe624874639a8
+    _dp_hash: 88aad81f9d5cf918bc4b97462aa363d6
+    _dps:
+    - "Assets/Art/Game/Audio/\u5931\u8D25.mp3"
+  - path: "Assets/Art/Game/Audio/\u67F1\u5B50\u78B0\u649E.mp3"
+    _PreviewSize: 44974
+    _InstanceID: 0
+    _type: UnityEngine.AudioClip
+    _hash: 1c3792ea13c41be29741428fa56c4d01
+    _dp_hash: 387466989f33b32a26f0ca499c1ea482
+    _dps:
+    - "Assets/Art/Game/Audio/\u67F1\u5B50\u78B0\u649E.mp3"
+  - path: "Assets/Art/Game/Audio/\u83B7\u5F97\u5956\u52B1.mp3"
+    _PreviewSize: 128566
+    _InstanceID: 0
+    _type: UnityEngine.AudioClip
+    _hash: 9ffac7bbe4d9eaebb67a292395992ea9
+    _dp_hash: c6c86d502f313516c008abc218490998
+    _dps:
+    - "Assets/Art/Game/Audio/\u83B7\u5F97\u5956\u52B1.mp3"
+  - path: "Assets/Art/Game/Audio/\u8857\u673Abgm.mp3"
+    _PreviewSize: 2003113
+    _InstanceID: 0
+    _type: UnityEngine.AudioClip
+    _hash: 9dd86b40eca7d592000e3c930993dbe6
+    _dp_hash: b352d0e409f102f0aac05251e8115eb4
+    _dps:
+    - "Assets/Art/Game/Audio/\u8857\u673Abgm.mp3"
+  - path: "Assets/Art/Game/Audio/\u8857\u673A\u4E2D\u5956.mp3"
+    _PreviewSize: 122297
+    _InstanceID: 0
+    _type: UnityEngine.AudioClip
+    _hash: 702999879b3bf718103b33b8a005ea1a
+    _dp_hash: 855a273d43810819319eb10e2930c90e
+    _dps:
+    - "Assets/Art/Game/Audio/\u8857\u673A\u4E2D\u5956.mp3"
+  - path: "Assets/Art/Game/Audio/\u8857\u673A\u6309\u94AE.mp3"
+    _PreviewSize: 12604
+    _InstanceID: 0
+    _type: UnityEngine.AudioClip
+    _hash: c78a598f7ea292a51f6d61299bcc5e36
+    _dp_hash: 22fc62d9376946b4a407e5b789ec78e8
+    _dps:
+    - "Assets/Art/Game/Audio/\u8857\u673A\u6309\u94AE.mp3"
+  - path: "Assets/Art/Game/Audio/\u98DE\u5251.mp3"
+    _PreviewSize: 57570
+    _InstanceID: 0
+    _type: UnityEngine.AudioClip
+    _hash: 4fc46164c0bff79043f1e73a17170006
+    _dp_hash: c8ffe588780a0deedc4da566219d2962
+    _dps:
+    - "Assets/Art/Game/Audio/\u98DE\u5251.mp3"
+  - path: Assets/Art/Game/Configs/New UI Layer Data.asset
+    _PreviewSize: 510
+    _InstanceID: 0
+    _type: IFramework.UI.UILayerData
+    _hash: 31c527494d87a611d117ec0d1d349fda
+    _dp_hash: ad51126fa6254b8e72afece024601c59
+    _dps:
+    - Packages/com.woo.iframework/Runtime/UI/UILayerData.cs
+    - Assets/Art/Game/Configs/New UI Layer Data.asset
+  - path: Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+    _PreviewSize: 5971
+    _InstanceID: 0
+    _type: UnityEditor.Animations.AnimatorController
+    _hash: 0a784fc1b7607d6d2072e473ed6de364
+    _dp_hash: c90be0ed0ac31a034ed6ff74bafc2f45
+    _dps:
+    - Assets/Art/Game/Res/Ani/LoadScene/Exit.anim
+    - Assets/Art/Game/Res/Ani/LoadScene/Show.anim
+    - Assets/Art/Game/Res/Ani/LoadScene/Ani.controller
+  - path: Assets/Art/Game/Res/Ani/LoadScene/Exit.anim
+    _PreviewSize: 12106
+    _InstanceID: 0
+    _type: UnityEngine.AnimationClip
+    _hash: b69176385a9cf314a163f547e2d9256c
+    _dp_hash: d42a1f8a5d010943b312e706cf28759e
+    _dps:
+    - Assets/Art/Game/Res/Ani/LoadScene/Exit.anim
+  - path: Assets/Art/Game/Res/Ani/LoadScene/Show.anim
+    _PreviewSize: 16102
+    _InstanceID: 0
+    _type: UnityEngine.AnimationClip
+    _hash: b62ae7052a68897c0a984055c9274a08
+    _dp_hash: 94ac3eabdd334b2708a8fce1705b6036
+    _dps:
+    - Assets/Art/Game/Res/Ani/LoadScene/Show.anim
+  - path: Assets/Art/Game/Res/UI/Login/element_hong.png
+    _PreviewSize: 1468800
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: 40c1c30b25e6cd368e5e446a74502d42
+    _dp_hash: 8eb22f1811e583bc394a1bdfd923199c
+    _dps:
+    - Assets/Art/Game/Res/UI/Login/element_hong.png
+  - path: Assets/Art/Game/Res/UI/Login/element_lan.png
+    _PreviewSize: 1471680
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: 5911fce1e7d8346a6ed116451cf10d32
+    _dp_hash: 55cc16da0288f11141e6716d7c88a337
+    _dps:
+    - Assets/Art/Game/Res/UI/Login/element_lan.png
+  - path: Assets/Art/Game/Res/UI/Login/icon.png
+    _PreviewSize: 524288
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: 69bb7853aa4ad8db79c5087426fa99b5
+    _dp_hash: 4347bed039aacecf2806683b66e75cd9
+    _dps:
+    - Assets/Art/Game/Res/UI/Login/icon.png
+  - path: "Assets/Art/Game/Res/UI/Login/\u5305\u5B50\u76AE\u5DE5\u4F5C\u5BA4\u56FE\u6807.png"
+    _PreviewSize: 262144
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: 5d559b216b6c3cc872ea07614fb2d005
+    _dp_hash: 932caaeeaeb0dca87152a9ccb9645fb0
+    _dps:
+    - "Assets/Art/Game/Res/UI/Login/\u5305\u5B50\u76AE\u5DE5\u4F5C\u5BA4\u56FE\u6807.png"
+  - path: "Assets/Art/Game/Res/UI/Login/\u53D8\u4F53=\u9ED8\u8BA4\u5706\u89D2\u77E9\u5F62,
+      \u989C\u8272=\u6DF1\u9083\u9ED1@2x.png"
+    _PreviewSize: 54000
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: 23a6e7283d8b076bf14df1a8fdc0ebbd
+    _dp_hash: 6881e3f3d381772ac497321fefdbaa68
+    _dps:
+    - "Assets/Art/Game/Res/UI/Login/\u53D8\u4F53=\u9ED8\u8BA4\u5706\u89D2\u77E9\u5F62,
+      \u989C\u8272=\u6DF1\u9083\u9ED1@2x.png"
+  - path: "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+    _PreviewSize: 73728
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: 80316a56a07cb72fc3f140c1e83173ef
+    _dp_hash: 629e131862e30799a8e19255a6a21545
+    _dps:
+    - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+  - path: "Assets/Art/Game/Res/UI/Login/\u7EC4 3.png"
+    _PreviewSize: 7392
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: da9072073f78ae5073696b7a5a9e2b39
+    _dp_hash: 9cbd4501fbc1a55551c960be9cc7ca50
+    _dps:
+    - "Assets/Art/Game/Res/UI/Login/\u7EC4 3.png"
+  - path: "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
+    _PreviewSize: 4071424
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: f0accd57fd058523f49ced2728126445
+    _dp_hash: 2ad9267f5e4642aa7b94c1e83eb33690
+    _dps:
+    - "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
+  - path: "Assets/Art/Game/Res/UI/Login/\u7EC4-3.png"
+    _PreviewSize: 214656
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: 77d78f464c22c8ae2222716ae7fdbeda
+    _dp_hash: 74c82d091e41878b523e15813956e904
+    _dps:
+    - "Assets/Art/Game/Res/UI/Login/\u7EC4-3.png"
+  - path: "Assets/Art/Game/Res/UI/Login/\u8FDB\u5EA6\u6761 \u62F7\u8D1D.png"
+    _PreviewSize: 100860
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: 21b328823e889528b52a680fece14327
+    _dp_hash: 8677dbd1e811fc205fa0cd092129571c
+    _dps:
+    - "Assets/Art/Game/Res/UI/Login/\u8FDB\u5EA6\u6761 \u62F7\u8D1D.png"
+  - path: "Assets/Art/Game/Res/UI/Login/\u8FDB\u5EA6\u6761 \u62F7\u8D1D1.png"
+    _PreviewSize: 100860
+    _InstanceID: 0
+    _type: UnityEngine.Texture2D
+    _hash: 58343ef82d71dcc0382b4675caadb1bb
+    _dp_hash: 6991bb79f508a8388912a3e0bfd5819e
+    _dps:
+    - "Assets/Art/Game/Res/UI/Login/\u8FDB\u5EA6\u6761 \u62F7\u8D1D1.png"
+  - path: Assets/Art/Game/shadervariants.shadervariants
+    _PreviewSize: 2397
+    _InstanceID: 25488
+    _type: UnityEngine.ShaderVariantCollection
+    _hash: de6ef94debf39bc2c1dd87bbb319229b
+    _dp_hash: c7e23bd30b1e34076d4d3c8d9c05d498
+    _dps:
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/Art/Game/shadervariants.shadervariants
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - path: Assets/Art/GamePlay/Scene/0/LightingData.asset
+    _PreviewSize: 18232
+    _InstanceID: 0
+    _type: UnityEditor.LightingDataAsset
+    _hash: 1ff37f63558753e354e80cf96f0e1cb7
+    _dp_hash: a65a1bfb398754fabd5d9260e3161fef
+    _dps:
+    - Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalCameraData.cs
+    - Assets/Art/GamePlay/Scene/0/LightingData.asset
+    - Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+    - Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalLightData.cs
+    - Assets/Art/GamePlay/Scene/0.unity
+    - Assets/Scripts/GamePlay/View/GamePlayScene.cs
+    - Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
+  - path: Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
+    _PreviewSize: 131232
+    _InstanceID: 0
+    _type: UnityEngine.Cubemap
+    _hash: fd5f55643c68f6a4c844406ee7f5a391
+    _dp_hash: d77f659ef1609b44fbcc5adad2130342
+    _dps:
+    - Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
+  - path: Assets/Art/GamePlay/Scene/plane.mat
+    _PreviewSize: 1273
+    _InstanceID: 0
+    _type: UnityEngine.Material
+    _hash: 7a07d3222c2abf0401953a49fcc5708b
+    _dp_hash: 80cc06b20f224cbe0819d32e0121d515
+    _dps:
+    - Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader
+    - Assets/Art/GamePlay/Scene/plane.mat
+  - path: Assets/Shaders/Custom2DGrayWithSwitch.shader
+    _PreviewSize: 2042
+    _InstanceID: 0
+    _type: UnityEngine.Shader
+    _hash: 3bee70f40c631de25c5914bc4fdccfe3
+    _dp_hash: 3e89dfe9c1abbb6be3502b6e6a2332a8
+    _dps:
+    - Assets/Shaders/Custom2DGrayWithSwitch.shader
+  - path: Assets/Shaders/GpuSlider/HealthBar.mat
+    _PreviewSize: 1068
+    _InstanceID: 25420
+    _type: UnityEngine.Material
+    _hash: eb2099def05c9968420dfbe65303f543
+    _dp_hash: 00000000000000000000000000000000
+    _dps: []
+  - path: Assets/Shaders/GpuSlider/HealthBar.shader
+    _PreviewSize: 3562
+    _InstanceID: 0
+    _type: UnityEngine.Shader
+    _hash: d4d5eba50413a53543115b23de7f2105
+    _dp_hash: 00000000000000000000000000000000
+    _dps: []
+  - path: Assets/Scripts/Game/Game/GGame.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Scripts/GamePlay/View/GameAssets.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Scripts/Game/UI/Battle/CardList.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Scripts/Game/UI/Battle/CardListPutPad.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    _PreviewSize: 7914
+    _InstanceID: 466
+    _type: UnityEngine.Shader
+    _hash: d236bb724260067379b11736bb8c6e91
+    _dp_hash: 488bc56dddec1b50483537a7d58c71c3
+    _dps:
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - path: Assets/Scripts/Game/UI/Battle/Card.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    _PreviewSize: 350200
+    _InstanceID: 25398
+    _type: UnityEngine.Font
+    _hash: bbbd0bdbfba093dec2ee4ca8b62e61f9
+    _dp_hash: 2ad18e9ed9c0db9aecf1100893074fdf
+    _dps:
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    _PreviewSize: 10917
+    _InstanceID: 462
+    _type: UnityEngine.Shader
+    _hash: 67dc07dbe5e8742f7e7b234617303e97
+    _dp_hash: fdafdf52b664f6cc5a1637a292a037cd
+    _dps:
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  - path: Assets/Scripts/Game/Scene/LoginScene.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Scripts/Game/Scene/MainScene.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/AOT/Scripts/Unity-Logs-Viewer/Images/error_icon.png
+    _PreviewSize: 4096
+    _InstanceID: 23744
+    _type: UnityEngine.Texture2D
+    _hash: f6ff33dca85f559af8925be3b20b5d59
+    _dp_hash: 8a3c24af77d54ba45f531e0ee6aa7028
+    _dps:
+    - Assets/AOT/Scripts/Unity-Logs-Viewer/Images/error_icon.png
+  - path: Assets/Scripts/GamePlay/View/GamePlayScene.cs
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: UnityEditor.MonoScript
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/GamePlay/BT
+    _PreviewSize: -1
+    _InstanceID: 25462
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/GamePlay/Prefabs
+    _PreviewSize: -1
+    _InstanceID: 25464
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/GamePlay/Role
+    _PreviewSize: -1
+    _InstanceID: 25466
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/GamePlay/Scene
+    _PreviewSize: -1
+    _InstanceID: 25468
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/GamePlay/Skill
+    _PreviewSize: -1
+    _InstanceID: 25470
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Audio
+    _PreviewSize: -1
+    _InstanceID: 25478
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Prefabs
+    _PreviewSize: -1
+    _InstanceID: 25482
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Res
+    _PreviewSize: -1
+    _InstanceID: 25484
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Scenes
+    _PreviewSize: -1
+    _InstanceID: 25486
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/GamePlay/Prefabs/House.prefab
+    _PreviewSize: 3826
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: d77d1612c922790b050c1170e5de5521
+    _dp_hash: 9cf7e811cc090b59ed291871d7395094
+    _dps:
+    - Assets/Art/GamePlay/Prefabs/House.prefab
+    - Packages/com.woo.iframework/Runtime/UI/ScriptCreatorContext.cs
+    - Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
+  - path: Assets/Art/Game/Prefabs/GGame.prefab
+    _PreviewSize: 9896
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 6e022b52977153d3ca9998e8147b6fab
+    _dp_hash: 09748482c8a6dcdc8be5be3ea3f50545
+    _dps:
+    - Assets/Art/Game/Prefabs/GGame.prefab
+    - Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalCameraData.cs
+    - Assets/Art/Configs/Localization Data.asset
+    - Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+    - Assets/Art/GamePlay/Prefabs/GameAssets.prefab
+    - Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+    - Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+    - Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+    - Packages/com.woo.iframework/Runtime/UI/UILayerData.cs
+    - Assets/Scripts/Game/Game/GGame.cs
+    - Assets/Scripts/GamePlay/View/GameAssets.cs
+    - Packages/com.woo.localization/Runtime/Actor/Asset/LocalizationData.cs
+    - Assets/Art/Configs/New UI Layer Data.asset
+  - path: Assets/Art/Game/Configs/role_tbrole.bytes
+    _PreviewSize: 80
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Configs/tbcarddata.bytes
+    _PreviewSize: 22
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Configs/tbglobaldata.bytes
+    _PreviewSize: 17
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Configs/tbitemdata.bytes
+    _PreviewSize: 23
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Configs/tbleveldata.bytes
+    _PreviewSize: 62
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Configs/tbplayerproperty.bytes
+    _PreviewSize: 7
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Configs/tbrolelev.bytes
+    _PreviewSize: 10
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Configs/tbsounddata.bytes
+    _PreviewSize: 383
+    _InstanceID: 0
+    _type: UnityEngine.TextAsset
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Excel
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art
+    _PreviewSize: -1
+    _InstanceID: 25502
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/AOT/jiangchengheiti.asset
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/AOT/jiangchengheiti.ttf
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Configs/role_tbrole.bytes
+    _PreviewSize: 80
+    _InstanceID: 9308
+    _type: UnityEngine.TextAsset
+    _hash: 1dc9cc31748520def1efb33a51c7cc12
+    _dp_hash: 4715745496b8e63ada015f66496bab85
+    _dps:
+    - Assets/Art/Configs/role_tbrole.bytes
+  - path: Assets/Art/Configs/tbcarddata.bytes
+    _PreviewSize: 22
+    _InstanceID: 9298
+    _type: UnityEngine.TextAsset
+    _hash: 12589adc58a7c647bbf120fcfa3ee7a8
+    _dp_hash: 0ef002e4e319196860967b77928242eb
+    _dps:
+    - Assets/Art/Configs/tbcarddata.bytes
+  - path: Assets/Art/Configs/tbglobaldata.bytes
+    _PreviewSize: 17
+    _InstanceID: 9294
+    _type: UnityEngine.TextAsset
+    _hash: dbeb567f60ada44a2b4f136f24f55933
+    _dp_hash: 5307ad0a5e786cc9f746bb5ea283dba5
+    _dps:
+    - Assets/Art/Configs/tbglobaldata.bytes
+  - path: Assets/Art/Configs/tbitemdata.bytes
+    _PreviewSize: 23
+    _InstanceID: 9300
+    _type: UnityEngine.TextAsset
+    _hash: a2bcb1102639b31e3957ca4ae816083c
+    _dp_hash: 15bf2df95dd5a6e7384ed069162d46ae
+    _dps:
+    - Assets/Art/Configs/tbitemdata.bytes
+  - path: Assets/Art/Configs/tbleveldata.bytes
+    _PreviewSize: 62
+    _InstanceID: 9302
+    _type: UnityEngine.TextAsset
+    _hash: b1bd8d4f33eb6b3d971de5fa1d663632
+    _dp_hash: ee854a276474c40dbcd28a97ba1e10b6
+    _dps:
+    - Assets/Art/Configs/tbleveldata.bytes
+  - path: Assets/Art/Configs/tbplayerproperty.bytes
+    _PreviewSize: 7
+    _InstanceID: 9304
+    _type: UnityEngine.TextAsset
+    _hash: d7bb3c8071928dbcab0e706c91821fbf
+    _dp_hash: 1113497c17e2526122319e131372a7c1
+    _dps:
+    - Assets/Art/Configs/tbplayerproperty.bytes
+  - path: Assets/Art/Configs/tbrolelev.bytes
+    _PreviewSize: 10
+    _InstanceID: 9296
+    _type: UnityEngine.TextAsset
+    _hash: 5c0662e08476dc26a1bcd78172ef91ff
+    _dp_hash: 02d7441609f9a1caf6ea3082c66cd938
+    _dps:
+    - Assets/Art/Configs/tbrolelev.bytes
+  - path: Assets/Art/Configs/tbsounddata.bytes
+    _PreviewSize: 383
+    _InstanceID: 9306
+    _type: UnityEngine.TextAsset
+    _hash: 88472e97e29ab3e98e0ec9f53cefc047
+    _dp_hash: ab2595dfbe8e3a6d96bbfcee29240521
+    _dps:
+    - Assets/Art/Configs/tbsounddata.bytes
+  - path: Assets/Art/Configs/UICollect.json
+    _PreviewSize: 943
+    _InstanceID: 25476
+    _type: UnityEngine.TextAsset
+    _hash: ecd3e82362c58d8ab8769198e0f77cd8
+    _dp_hash: c5e33477720cf989acf9c69bdba95a6f
+    _dps:
+    - Assets/Art/Configs/UICollect.json
+  - path: Assets/Art/Configs/Localization Data.asset
+    _PreviewSize: 3370
+    _InstanceID: 9278
+    _type: WooLocalization.LocalizationData
+    _hash: a99239bdeda21dc5f668bfa6a2dd610a
+    _dp_hash: c47629097fa2e66f99f32eb5eb4a8cb9
+    _dps:
+    - Assets/Art/Configs/Localization Data.asset
+    - Packages/com.woo.localization/Runtime/Actor/Asset/LocalizationData.cs
+  - path: Assets/Art/Configs/New UI Layer Data.asset
+    _PreviewSize: 510
+    _InstanceID: 24708
+    _type: IFramework.UI.UILayerData
+    _hash: 31c527494d87a611d117ec0d1d349fda
+    _dp_hash: 110da2e90101c8f6bb7b053d26cba75d
+    _dps:
+    - Packages/com.woo.iframework/Runtime/UI/UILayerData.cs
+    - Assets/Art/Configs/New UI Layer Data.asset
+  - path: Assets/Art/Font/jiangchengheiti baise.mat
+    _PreviewSize: 3148
+    _InstanceID: 0
+    _type: UnityEngine.Material
+    _hash: 093ef97091dc71bf7ee7ef7a2402d2ac
+    _dp_hash: fa20a1724391cd795eb214e29d357fe7
+    _dps:
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/Art/Font/jiangchengheiti.asset
+    - Assets/Art/Font/jiangchengheiti.ttf
+    - Assets/Art/Font/jiangchengheiti baise.mat
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - path: Assets/Art/Font/jiangchengheiti heise_chu.mat
+    _PreviewSize: 3152
+    _InstanceID: 0
+    _type: UnityEngine.Material
+    _hash: 9b766d9dbaa4ed7cfacd72a70495e335
+    _dp_hash: 4cdc86ba23ca2d143438a541ea75a98c
+    _dps:
+    - Assets/Art/Font/jiangchengheiti heise_chu.mat
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/Art/Font/jiangchengheiti.asset
+    - Assets/Art/Font/jiangchengheiti.ttf
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - path: Assets/Art/Font/jiangchengheiti heise_xi.mat
+    _PreviewSize: 3157
+    _InstanceID: 0
+    _type: UnityEngine.Material
+    _hash: eee468af65b895378f93c8ea5a46f17b
+    _dp_hash: 9dea735a03e260c2d2e7b2d56b293213
+    _dps:
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/Art/Font/jiangchengheiti.asset
+    - Assets/Art/Font/jiangchengheiti.ttf
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - Assets/Art/Font/jiangchengheiti heise_xi.mat
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - path: Assets/Art/Font/jiangchengheiti lvse.mat
+    _PreviewSize: 3180
+    _InstanceID: 0
+    _type: UnityEngine.Material
+    _hash: 9bd3f7216c1d6114f7a5ef510e93e699
+    _dp_hash: 6496f24ae1dca8930bc84c7a04378418
+    _dps:
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/Art/Font/jiangchengheiti.asset
+    - Assets/Art/Font/jiangchengheiti.ttf
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - Assets/Art/Font/jiangchengheiti lvse.mat
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - path: Assets/Art/Font/jiangchengheiti zise.mat
+    _PreviewSize: 3174
+    _InstanceID: 0
+    _type: UnityEngine.Material
+    _hash: 9a907d3770b211f35cd56d78152543bb
+    _dp_hash: 5f3eb69e07c8739678c0d546261f5e40
+    _dps:
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/Art/Font/jiangchengheiti.asset
+    - Assets/Art/Font/jiangchengheiti.ttf
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+    - Assets/Art/Font/jiangchengheiti zise.mat
+  - path: Assets/Art/Font/jiangchengheiti.asset
+    _PreviewSize: 34075986
+    _InstanceID: 0
+    _type: TMPro.TMP_FontAsset
+    _hash: 2aa675b500ee9ff28902febb01e25d97
+    _dp_hash: 20ab7d66bbb11ac3f2fcd0c2c0a2092a
+    _dps:
+    - Assets/Art/Font/jiangchengheiti.asset
+    - Assets/Art/Font/jiangchengheiti.ttf
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - path: Assets/Art/Font/jiangchengheiti.ttf
+    _PreviewSize: 9150564
+    _InstanceID: 0
+    _type: UnityEngine.Font
+    _hash: f38f60df29910e46823a1d832043a57a
+    _dp_hash: 54632e854cff083fc1d6011d949829ae
+    _dps:
+    - Assets/Art/Font/jiangchengheiti.ttf
+  - path: Assets/Art/Game/Prefabs/UI/Login.prefab
+    _PreviewSize: 41091
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: c62c45ee1e484c0fddbbf8666b803803
+    _dp_hash: 15325225dd83f9e666fec5863bb7ce30
+    _dps:
+    - Packages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutElement.cs
+    - Assets/Art/Font/jiangchengheiti.asset
+    - Assets/Art/Font/jiangchengheiti.ttf
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Input Field Icon.psd
+    - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_InputField.cs
+    - "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
+    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component
+      Icon.psd
+    - Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+    - Assets/Art/Game/Prefabs/UI/Login.prefab
+    - Packages/com.unity.ugui/Runtime/UI/Core/RectMask2D.cs
+    - Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+    - Packages/com.woo.iframework/Runtime/UI/UIPanel.cs
+  - path: Assets/Art/GamePlay/Prefabs/GameAssets.prefab
+    _PreviewSize: 1666
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 889ec764b563079c81ab1d3f051040a5
+    _dp_hash: aea59de50674494371d5c96c1753af94
+    _dps:
+    - Assets/Art/GamePlay/Prefabs/GameAssets.prefab
+    - Assets/Scripts/GamePlay/View/GameAssets.cs
+  - path: Assets/Art/GamePlay/Prefabs/Role.prefab
+    _PreviewSize: 2447
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 1002195eeda6bc7f3fc5ac0020c53b91
+    _dp_hash: c9bb67f98445aa278a7fb0cfeaee9607
+    _dps:
+    - Packages/com.woo.iframework/Runtime/UI/ScriptCreatorContext.cs
+    - Assets/Art/GamePlay/Prefabs/Role.prefab
+  - path: Assets/Art/GamePlay/Role/0.prefab
+    _PreviewSize: 2444
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 92063f7f8e0f09aba156648440232e29
+    _dp_hash: 8e00abf89e1fc2d35049e24444dff248
+    _dps:
+    - Assets/Art/GamePlay/Role/0.prefab
+    - Packages/com.woo.iframework/Runtime/UI/ScriptCreatorContext.cs
+  - path: Assets/Art/Configs
+    _PreviewSize: -1
+    _InstanceID: 24898
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Font
+    _PreviewSize: -1
+    _InstanceID: 25478
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game
+    _PreviewSize: -1
+    _InstanceID: 25480
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/GamePlay
+    _PreviewSize: -1
+    _InstanceID: 25482
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Shaders
+    _PreviewSize: -1
+    _InstanceID: 0
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Shaders/Custom2DGrayWithSwitch.shader
+    _PreviewSize: 2042
+    _InstanceID: 0
+    _type: UnityEngine.Shader
+    _hash: 3bee70f40c631de25c5914bc4fdccfe3
+    _dp_hash: 3e89dfe9c1abbb6be3502b6e6a2332a8
+    _dps:
+    - Assets/Art/Shaders/Custom2DGrayWithSwitch.shader
+  - path: Assets/Art/Shaders/GpuSlider/HealthBar.mat
+    _PreviewSize: 1105
+    _InstanceID: 0
+    _type: UnityEngine.Material
+    _hash: 38c6882fc96c9277667e7a262c03fe60
+    _dp_hash: 57aba008ecd3da5731d6fa0a59e20ba3
+    _dps:
+    - Assets/AOT/Scripts/Unity-Logs-Viewer/Images/error_icon.png
+    - Assets/Art/Shaders/GpuSlider/HealthBar.shader
+    - Assets/Art/Shaders/GpuSlider/HealthBar.mat
+  - path: Assets/Art/Shaders/GpuSlider/HealthBar.shader
+    _PreviewSize: 3562
+    _InstanceID: 0
+    _type: UnityEngine.Shader
+    _hash: d4d5eba50413a53543115b23de7f2105
+    _dp_hash: 665a3756c9b4ecd93a03723b2e8cde9f
+    _dps:
+    - Assets/Art/Shaders/GpuSlider/HealthBar.shader
+  - path: Assets/Art/Shaders
+    _PreviewSize: -1
+    _InstanceID: 25504
+    _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dae20bc9ae23d9b49b8a1bd00a49fb9d, type: 3}
+  m_Name: AOT Define
+  m_EditorClassIdentifier: 
+  logType: -1
+  PrefCompress: 0
+  PrefId: _G_DESKTOP-5096Q6V
+  LocalizationType: zh-cn
+  ShowHearBeat: 0
+  clientChannel: 2
+  GateUrl: http://49.235.171.165/center
