@@ -18,7 +18,6 @@ public partial class GGame : Game, IInjectAble
 
     public Camera UICamera;
     public AssetReference<TextAsset> uiCollect = new AssetReference<TextAsset>();
-    public GameAssets gameAssets;
     [Inject] IPrefService prefService;
     [Inject] IGameStateService stateService;
     private const string address = "ws://127.0.0.1:5002/ws";

@@ -22,12 +22,11 @@ namespace RGBC
 			}
 		}
 		private View view;
-		[Inject]
-		BattleCtrl battleCtrl;
+
 		protected override void InitComponents()
 		{
 			view = new View(this);
-			this.BindButton(view.battle, () => { battleCtrl.EnterGame(); });
+		
 		}
 		protected override void OnLoad(){}
 		protected override void OnShow(){}

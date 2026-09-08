@@ -2996,30 +2996,6 @@ MonoBehaviour:
     - Assets/Art/GamePlay/Scene/0.unity
     - Assets/Scripts/GamePlay/View/GamePlayScene.cs
     - Assets/Art/GamePlay/Scene/0/ReflectionProbe-0.exr
-  - path: Assets/Art/Game/Prefabs/UI/Battle.prefab
-    _PreviewSize: 21145
-    _InstanceID: 0
-    _type: UnityEngine.GameObject
-    _hash: bb191279486b63512719835fbaf13e64
-    _dp_hash: 2e768d7051128db2242d3c950d92fa2d
-    _dps:
-    - Assets/Scripts/Game/UI/Battle/CardList.cs
-    - Assets/Scripts/Game/UI/Battle/CardListPutPad.cs
-    - Packages/com.woo.iframework/Runtime/UI/Tool/Empty4Raycast.cs
-    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
-    - Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
-    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component
-      Icon.psd
-    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-    - Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
-    - Assets/Scripts/Game/UI/Battle/Card.cs
-    - Assets/Art/Game/Prefabs/UI/Battle.prefab
-    - Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
-    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
-    - Packages/com.woo.iframework/Runtime/UI/UIPanel.cs
-    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
   - path: Assets/Art/GamePlay/Prefabs/HealthBar.prefab
     _PreviewSize: 2972
     _InstanceID: 25418
@@ -4040,13 +4016,6 @@ MonoBehaviour:
   - path: Assets/Art/Game
     _PreviewSize: -1
     _InstanceID: 25480
-    _type: 
-    _hash: 
-    _dp_hash: 
-    _dps: []
-  - path: Assets/Art/GamePlay
-    _PreviewSize: -1
-    _InstanceID: 25482
     _type: 
     _hash: 
     _dp_hash: 
