@@ -15,17 +15,15 @@ namespace RGBC.UI
         class View
         {
             //FieldsStart
-            public TMPro.TMP_InputField Account;
-            public UnityEngine.UI.Button SginIn;
-            public UnityEngine.UI.Button Login;
+		public TMPro.TMP_InputField Account;
+		public UnityEngine.UI.Button Login;
 
             //FieldsEnd
             public View(LoginView context)
             {
                 //InitComponentsStart
-                Account = context.GetComponent<TMPro.TMP_InputField>("Account@sm");
-                SginIn = context.GetComponent<UnityEngine.UI.Button>("SginIn@sm");
-                Login = context.GetComponent<UnityEngine.UI.Button>("Login@sm");
+			Account = context.GetComponent<TMPro.TMP_InputField>("Account@sm");
+			Login = context.GetComponent<UnityEngine.UI.Button>("Login@sm");
 
                 //InitComponentsEnd
             }
@@ -62,14 +60,14 @@ namespace RGBC.UI
                     GameTools.ShowTip("登录成功");
                 }
             });
-            this.BindButton(view.SginIn, async () =>
-            {
-                var succ = await userCtrl.SignIn(view.Account.text, view.Account.text);
-                if (succ)
-                {
-                    GameTools.ShowTip("注册成功");
-                }
-            });
+            //this.BindButton(view.SginIn, async () =>
+            //{
+            //    var succ = await userCtrl.SignIn(view.Account.text, view.Account.text);
+            //    if (succ)
+            //    {
+            //        GameTools.ShowTip("注册成功");
+            //    }
+            //});
 
         }
         protected override void OnShow()

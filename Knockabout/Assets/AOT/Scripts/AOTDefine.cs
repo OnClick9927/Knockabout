@@ -32,7 +32,6 @@ namespace AOT
         //public bool PrefCompress = false;
         //public string PrefId = "15";
         public string LocalizationType = "zh-cn";
-        public bool LocalTestMode = true;
         //public bool ShowHearBeat = false;
 
 

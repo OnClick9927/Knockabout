@@ -1,12 +1,6 @@
 {
     "datas": [
         {
-            "path": "Assets/Art/Game/Prefabs/UI/Battle.prefab",
-            "isResourcePath": false,
-            "layer": 0,
-            "fullScreen": false
-        },
-        {
             "path": "Assets/Art/Game/Prefabs/UI/LoadScene.prefab",
             "isResourcePath": false,
             "layer": 6,

@@ -20,7 +20,6 @@ public partial class GGame : Game, IInjectAble
     public AssetReference<TextAsset> uiCollect = new AssetReference<TextAsset>();
     [Inject] IPrefService prefService;
     [Inject] IGameStateService stateService;
-    private const string address = "ws://127.0.0.1:5002/ws";
     protected async override void Startup()
     {
         Log.L("热更新逻辑开始");
@@ -31,7 +30,7 @@ public partial class GGame : Game, IInjectAble
             .UsePref(this, this)
             .UseMvc(GameTools.CreateSubTypeInstances<ModelBase>(), GameTools.CreateSubTypeInstances<CtrlBase>())
             .UseState(GameTools.CreateSubTypeInstances<IGameState>())
-            .Use(new NetSession(address));
+            ;
 
         this.Values().Inject(this);
 
@@ -48,7 +47,7 @@ public partial class GGame : Game, IInjectAble
         this.EnterLocalization(this, AOTDefine.G.LocalizationType)
             .EnterAudio()
             .EnterMvc()
-            .EnterService<NetSession>()
+            //.EnterService<NetSession>()
             .EnterState<GameState_Login>();
     }
 

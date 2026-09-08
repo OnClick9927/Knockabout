@@ -2952,36 +2952,6 @@ MonoBehaviour:
     _dps:
     - Assets/Art/Game/Scenes/Login.unity
     - Assets/Scripts/Game/Scene/LoginScene.cs
-  - path: Assets/Art/Game/Scenes/Main.unity
-    _PreviewSize: 4946
-    _InstanceID: 0
-    _type: UnityEditor.SceneAsset
-    _hash: dc2c03ef95963d79a53da3e8ad55c9b6
-    _dp_hash: 0ad1bda2ab898598e3d62c6887a7aad0
-    _dps:
-    - Assets/Art/Game/Scenes/Main.unity
-    - Assets/Scripts/Game/Scene/MainScene.cs
-  - path: Assets/Art/Game/Prefabs/UI/Main.prefab
-    _PreviewSize: 16043
-    _InstanceID: 0
-    _type: UnityEngine.GameObject
-    _hash: 46e237063606984afddd0ac4dc3c3ca9
-    _dp_hash: 143e0fc9af0ed17b7116345725238065
-    _dps:
-    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
-    - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
-    - Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
-    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component
-      Icon.psd
-    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-    - Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
-    - Assets/Art/Game/Prefabs/UI/Main.prefab
-    - Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
-    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
-    - Packages/com.woo.iframework/Runtime/UI/UIPanel.cs
-    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
   - path: Assets/Art/GamePlay/Scene/0.unity
     _PreviewSize: 18465
     _InstanceID: 0
@@ -3844,15 +3814,6 @@ MonoBehaviour:
     _dp_hash: c5e33477720cf989acf9c69bdba95a6f
     _dps:
     - Assets/Art/Configs/UICollect.json
-  - path: Assets/Art/Configs/Localization Data.asset
-    _PreviewSize: 3370
-    _InstanceID: 9278
-    _type: WooLocalization.LocalizationData
-    _hash: a99239bdeda21dc5f668bfa6a2dd610a
-    _dp_hash: c47629097fa2e66f99f32eb5eb4a8cb9
-    _dps:
-    - Assets/Art/Configs/Localization Data.asset
-    - Packages/com.woo.localization/Runtime/Actor/Asset/LocalizationData.cs
   - path: Assets/Art/Configs/New UI Layer Data.asset
     _PreviewSize: 510
     _InstanceID: 24708
@@ -3947,31 +3908,6 @@ MonoBehaviour:
     _dp_hash: 54632e854cff083fc1d6011d949829ae
     _dps:
     - Assets/Art/Font/jiangchengheiti.ttf
-  - path: Assets/Art/Game/Prefabs/UI/Login.prefab
-    _PreviewSize: 41091
-    _InstanceID: 0
-    _type: UnityEngine.GameObject
-    _hash: c62c45ee1e484c0fddbbf8666b803803
-    _dp_hash: 15325225dd83f9e666fec5863bb7ce30
-    _dps:
-    - Packages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutElement.cs
-    - Assets/Art/Font/jiangchengheiti.asset
-    - Assets/Art/Font/jiangchengheiti.ttf
-    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Input Field Icon.psd
-    - "Assets/Art/Game/Res/UI/Login/\u56FE\u5C42 25.png"
-    - Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
-    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
-    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_InputField.cs
-    - "Assets/Art/Game/Res/UI/Login/\u7EC4 3\u9053\u5177.png"
-    - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component
-      Icon.psd
-    - Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
-    - Assets/Art/Game/Prefabs/UI/Login.prefab
-    - Packages/com.unity.ugui/Runtime/UI/Core/RectMask2D.cs
-    - Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
-    - Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
-    - Packages/com.woo.iframework/Runtime/UI/UIPanel.cs
   - path: Assets/Art/GamePlay/Prefabs/GameAssets.prefab
     _PreviewSize: 1666
     _InstanceID: 0
@@ -4057,6 +3993,20 @@ MonoBehaviour:
     _PreviewSize: -1
     _InstanceID: 25504
     _type: 
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Prefabs/UI/Login.prefab
+    _PreviewSize: 33325
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
+    _hash: 
+    _dp_hash: 
+    _dps: []
+  - path: Assets/Art/Game/Prefabs/UI/Main.prefab
+    _PreviewSize: 3696
+    _InstanceID: 0
+    _type: UnityEngine.GameObject
     _hash: 
     _dp_hash: 
     _dps: []

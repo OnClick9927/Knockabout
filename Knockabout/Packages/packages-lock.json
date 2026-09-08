@@ -1,46 +1,11 @@
 {
   "dependencies": {
     "com.code-philosophy.hybridclr": {
-      "version": "https://github.com/focus-creative-games/hybridclr_unity.git#v8.13.0",
+      "version": "https://github.com/focus-creative-games/hybridclr_unity.git#v8.14.1",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "ca7f87b6a72f3739f99a5ad0c957c7aae0cbd922"
-    },
-    "com.coffee.softmask-for-ugui": {
-      "version": "https://github.com/mob-sakai/SoftMaskForUGUI.git?path=Packages/src/#3.6.4",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0"
-      },
-      "hash": "94ef3ada02ea62a8290bd8ce9d3f572edbdcd007"
-    },
-    "com.coffee.ui-effect": {
-      "version": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src/#5.11.5",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0"
-      },
-      "hash": "1f4427c3d5d249534dba69d8c53acafb5d5fbd7f"
-    },
-    "com.coffee.ui-particle": {
-      "version": "https://github.com/mob-sakai/ParticleEffectForUGUI.git#5.0.0-preview.11",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.particlesystem": "1.0.0"
-      },
-      "hash": "db00e262212269c9f79e7ee773761915ae21db4b"
-    },
-    "com.coffee.unmask": {
-      "version": "https://github.com/mob-sakai/UnmaskForUGUI.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "33356da2c43fa28397192baee70910c978e3169f"
+      "hash": "a0e0b502c6c1b9ce2d0983181f4555e6149ae249"
     },
     "com.coffee.upm-git-extension": {
       "version": "https://github.com/mob-sakai/UpmGitExtension.git#2.2.1",
@@ -48,13 +13,6 @@
       "source": "git",
       "dependencies": {},
       "hash": "4779b6e243689dc36e0a7f80505037445d5779ee"
-    },
-    "com.psygames.unitywebsocket": {
-      "version": "https://github.com/psygames/UnityWebSocket.git#upm",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "369f2a56f68e7a133d3d1acfdc26d4693cd74497"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
@@ -80,7 +38,7 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.27",
+      "version": "2.0.28",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -98,13 +56,6 @@
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.cn"
-    },
-    "com.unity.mobile.android-logcat": {
-      "version": "1.4.7",
-      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.cn"
@@ -185,40 +136,12 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "com.woo.actionattribute": {
-      "version": "https://github.com/OnClick9927/ActionEditor.git#upm_attribute",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "5409b1ca338f06be02b57005688fe435fee4140e"
-    },
-    "com.woo.actionbt": {
-      "version": "https://github.com/OnClick9927/ActionEditor.git#upm_bt",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "0ce53023def41873db3818d896f24046d76d54e4"
-    },
     "com.woo.actionbuffer": {
       "version": "https://github.com/OnClick9927/ActionEditor.git#upm_buffer",
       "depth": 0,
       "source": "git",
       "dependencies": {},
       "hash": "1439719ee7c064308cc09829d53301194261b9cf"
-    },
-    "com.woo.actioneditor": {
-      "version": "https://github.com/OnClick9927/ActionEditor.git#upm",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "e3765938b5b06d021d3f0909778d81a93232bc5a"
-    },
-    "com.woo.actionnodes": {
-      "version": "https://github.com/OnClick9927/ActionEditor.git#upm_node",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "415c0ac7d0961e0b54c9f3aa85f98ccb6c378249"
     },
     "com.woo.iframework": {
       "version": "https://github.com/OnClick9927/IFramework-Unity.git#src",

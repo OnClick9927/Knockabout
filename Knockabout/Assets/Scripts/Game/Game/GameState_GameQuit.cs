@@ -4,7 +4,7 @@ using IFramework.UI;
 public class GameState_GameQuit : IGameState
 {
     [Inject(UIServiceEx.defaultName)] UIService UI;
-    [Inject] NetSession session;
+    //[Inject] NetSession session;
 
     void IGameState.Init()
     {
@@ -13,7 +13,7 @@ public class GameState_GameQuit : IGameState
     void IGameState.OnEnter(IGameState exit)
     {
         UI?.CloseAll();
-        session.Disconnect();
+        //session.Disconnect();
     }
 
     void IGameState.OnExit(IGameState enter)

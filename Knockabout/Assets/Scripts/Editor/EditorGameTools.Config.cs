@@ -32,21 +32,14 @@ partial class EditorGameTools
 
         const string exceldir = "Assets/../../excels/";
         public static string ToolsPath => "Assets/../../Tools/Client";
-        const string target = "Assets/../../RGBS/_Excel";
-        [MenuItem("Tools/SC/同步Luban给Server")]
-        public static void SyncToServer()
-        {
-            var path = CompilationPipeline.GetAssemblyDefinitionFilePathFromAssemblyName(nameof(Luban));
-            CopyDir(Path.GetDirectoryName(path), target, false);
-            AssetDatabase.Refresh();
-        }
+        const string target = "Assets/../_Excel";
 
-        [MenuItem("Tools/SC/打开配置表格文件夹")]
+        [MenuItem("Tools/配置/打开配置表格文件夹")]
         public static void OpenFolder()
         {
             IFramework.EditorTools.OpenFolder(exceldir);
         }
-        [MenuItem("Tools/SC/打表")]
+        [MenuItem("Tools/配置/打表")]
 
         public static void Sync()
         {
@@ -73,14 +66,15 @@ partial class EditorGameTools
                 $"{target}/Gen".ToAbsPath(),
                 $"{target}/Data".ToAbsPath(),
             }, dir.ToAbsPath());
-            var path = CompilationPipeline.GetAssemblyDefinitionFilePathFromAssemblyName(nameof(Luban));
+            var path = "Assets/Scripts/Excel";
 
-            File.Move(path, "xx");
-            var _path = Path.GetDirectoryName(path);
-            CopyDir(target, _path);
-            CopyDir($"{_path}/Data", Configs.Directory, false);
-            Directory.Delete($"{_path}/Data", true);
-            File.Move("xx", path);
+            //File.Move(path, "xx");
+            //var _path = Path.GetDirectoryName(path);
+            CopyDir(target+"/Gen", path + "/Gen");
+            CopyDir($"{target}/Data", Configs.Directory, false);
+            //Directory.Delete($"{_path}/Data", true);
+            //File.Move("xx", path);
+            Directory.Delete(target,true);
             AssetDatabase.Refresh();
             //Init();
 

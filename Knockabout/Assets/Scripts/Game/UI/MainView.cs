@@ -11,12 +11,10 @@ namespace RGBC
     {
 		class View {
 //FieldsStart
-		public UnityEngine.UI.Button battle;
 
 //FieldsEnd
 		public View(MainView context){
 //InitComponentsStart
-			battle = context.GetComponent<UnityEngine.UI.Button>("battle@sm");
 
 //InitComponentsEnd
 			}

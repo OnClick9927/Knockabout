@@ -53,7 +53,7 @@
         "layerObjectPath": "Assets/Art/Configs/New UI Layer Data.asset"
     },
     "pubsave": {
-        "NameSpace": "UI",
+        "NameSpace": "",
         "viewBaseIndex": 0,
         "widgetBaseIndex": 0
     }
