@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using WooAsset;
+using System;
+using System.IO;
 
 namespace AOT
 {
@@ -7,7 +9,7 @@ namespace AOT
     {
         public override string GetUrlByBundleName(string buildTarget, string bundleName)
         {
-            return base.GetUrlByBundleName(buildTarget, bundleName) + ".bytes";
+            return new Uri(Path.Combine(Application.streamingAssetsPath, buildTarget, bundleName + ".bytes")).AbsoluteUri;
         }
         public override string GetUrlByBundleName(string buildTarget, string version, string bundleName)
         {
@@ -16,15 +18,10 @@ namespace AOT
         protected override string GetBaseUrl()
         {
             return Application.streamingAssetsPath;
-            return null;
-            //return AOTDefine.G.CDN;
-            return "https://webpkgs.oss-cn-shanghai.aliyuncs.com/DreamElevator/Server";
-            return "http://127.0.0.1:8080";
-            return "http://192.168.1.4:8080/webgl/Server";
         }
         public override bool GetBundleAlwaysFromWebRequest()
         {
-            return true;
+            return false;
         }
 
         public override IAssetLife GetAssetLife()
@@ -33,9 +30,12 @@ namespace AOT
         }
         public override bool GetCachesDownloadedBundles()
         {
-            return true;
+            return false;
         }
-        //public override bool CheckVersionByVersionCollection() => false;
+        public override bool NeedCopyStreamBundles() => false;
+        public override bool GetSaveBytesWhenPlaying() => false;
+        public override string GetBundleLocalPath(string bundlePath)
+            => Path.Combine(AssetsHelper.StreamBundlePath, Path.GetFileName(bundlePath) + ".bytes");
     }
 
 

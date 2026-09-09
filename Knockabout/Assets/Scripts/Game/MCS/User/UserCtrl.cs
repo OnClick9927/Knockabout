@@ -21,6 +21,7 @@ public class UserCtrl : CtrlBase
             pref.Save(context);
             pref.Load<PrefAfterLogin>(uid);
             UI.AcceptRayCast();
+            game.GetComponent<WindowsDesktopWindow>()?.SetLoggedIn(true);
             stateService.SwitchState<GameState_Main>();
             return true;
         }

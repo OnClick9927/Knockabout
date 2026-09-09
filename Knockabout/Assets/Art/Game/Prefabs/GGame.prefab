@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4392622044303696981}
   - component: {fileID: 4527427970443893571}
+  - component: {fileID: 6695068714356028790}
   m_Layer: 0
   m_Name: GGame
   m_TagString: Untagged
@@ -55,6 +56,21 @@ MonoBehaviour:
     guid: 0edda7d88e7485b47bfd4c3dedeeea8c
   gameAssets: {fileID: 6019068278345955655, guid: 15041ab3fa5ee9442bc3d98460610a28, type: 3}
   a: 
+--- !u!114 &6695068714356028790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155752032578425019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27316e99d94f48f7a29959ae070c3daf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  alwaysOnTop: 1
+  transparentBackground: 1
+  clickThrough: 1
 --- !u!1 &2943737764608008574
 GameObject:
   m_ObjectHideFlags: 0

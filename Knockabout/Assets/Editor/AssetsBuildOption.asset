@@ -28,7 +28,7 @@ MonoBehaviour:
     copyToStream: 1
     assets: []
     selector:
-      _select: WooAsset.DefaultBuildInBundleSelector
+      _select: EditorGameTools+AppBuild+LocalBuildInBundleSelector
   bundleOptimize:
     optimizer:
       _select: WooAsset.NoneBundleOptimizer

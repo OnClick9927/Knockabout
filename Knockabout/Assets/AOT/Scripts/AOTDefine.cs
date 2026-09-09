@@ -54,7 +54,7 @@ namespace AOT
 
         public const string HotAssemblyTag = "HotAssembly";
         public const string ConfigAssetTag = "Config";
-        public const string ASBDir = "Assets/Project/HotAssembly";
+        public const string ASBDir = "Assets/Art/HotAssembly";
         //public static string GGamePrefab = "Assets/Project/Prefabs/GGame.prefab";
     }
 }
